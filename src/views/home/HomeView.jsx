@@ -11,11 +11,16 @@ function TypeIcon({ type }) {
     case 'CHANNEL':
       return <Icon type="youtube" theme="outlined" />;
     case 'MUSIC':
+    case 'PODCAST':
       return <Icon type="customer-service" theme="outlined" />;
     case 'BOOK':
       return <Icon type="book" theme="outlined" />;
     case 'MOVIE':
       return <Icon type="video-camera" theme="outlined" />;
+    case 'WEBSITE':
+      return <Icon type="global" theme="outlined" />;
+    case 'PICTURE':
+      return <Icon type="picture" theme="outlined" />;
     default:
       return null;
   }
@@ -28,11 +33,6 @@ function Cover({ reference }) {
         className="Cover"
         src={reference.coverUrl}
         alt={`logo of ${reference.title}`}
-        style={{
-          maxHeight: '150px',
-          width: 'auto',
-          margin: 'auto',
-        }}
       />
     );
   }
@@ -56,6 +56,7 @@ function Cover({ reference }) {
 Cover.propTypes = {
   reference: PropTypes.shape({
     url: PropTypes.string,
+    coverUrl: PropTypes.string,
   }).isRequired,
 };
 
@@ -65,7 +66,6 @@ function ReferenceCard({ reference }) {
       <a href={reference.url} target="_blank" rel="noopener noreferrer">
         <Card hoverable cover={<Cover reference={reference} />}>
           <Card.Meta
-            className="HomeView__Item__Meta"
             avatar={<TypeIcon type={reference.type} />}
             title={reference.title}
           />

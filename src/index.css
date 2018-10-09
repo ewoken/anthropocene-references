@@ -10,3 +10,13 @@ body {
 .HomeView {
   padding: 10px;
 }
+
+.Cover {
+  height: 150px;
+}
+
+img.Cover {
+  width: auto;
+  margin: auto;
+}
+
