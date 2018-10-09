@@ -1,1 +1,0 @@
-# Anthropocene references
