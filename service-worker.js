@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/anthropocene-references/precache-manifest.ad8470f11520dd2ab24f65efb7ca4cd6.js"
+  "/anthropocene-references/precache-manifest.89669d5b3f70f1c1a24e1d47e14232dd.js"
 );
 
 workbox.clientsClaim();
