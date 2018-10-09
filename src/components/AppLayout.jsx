@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { Layout, Menu, Icon } from 'antd';
+import SearchComponent from './SearchComponent';
+
 import HomeView from '../views/home/HomeView';
 
 function AppLayout() {
@@ -17,6 +19,9 @@ function AppLayout() {
           >
             <Menu.Item key="home">
               <strong>Références</strong>
+            </Menu.Item>
+            <Menu.Item key="search">
+              <SearchComponent />
             </Menu.Item>
             <Menu.Item key="github">
               <a

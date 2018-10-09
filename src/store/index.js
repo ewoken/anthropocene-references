@@ -1,15 +1,15 @@
 import { createStore, combineReducers } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
-import { reducer as formReducer } from 'redux-form';
 
 import typeReducer from './types';
 import referenceReducer from './references';
+import searchReducer from './search';
 
 const rootReducer = combineReducers({
   // ...reducers,
-  form: formReducer,
   types: typeReducer,
   references: referenceReducer,
+  search: searchReducer,
 });
 
 const enhancers = [];

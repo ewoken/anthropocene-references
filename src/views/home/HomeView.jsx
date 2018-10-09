@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { List, Card, Icon } from 'antd';
 
-import { referencesSelector } from '../../store/references';
+import filteredReferencesSelector from '../../store/filteredReferences';
 
 function TypeIcon({ type }) {
   switch (type) {
@@ -87,6 +87,7 @@ function HomeView(props) {
       <List
         grid={{ gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 4, xxl: 3 }}
         dataSource={references}
+        locale={{ emptyText: 'Aucune référence' }}
         renderItem={reference => (
           <List.Item key={reference.title}>
             <ReferenceCard reference={reference} />
@@ -106,5 +107,5 @@ HomeView.propTypes = {
 };
 
 export default connect(state => ({
-  references: referencesSelector(state),
+  references: filteredReferencesSelector(state),
 }))(HomeView);
