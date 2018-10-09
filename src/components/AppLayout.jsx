@@ -9,7 +9,7 @@ function AppLayout() {
     <div className="AppLayout">
       <Layout>
         <Layout.Header>
-          <h1>References</h1>
+          <h1>Références</h1>
         </Layout.Header>
         <Layout.Content>
           <Switch>
