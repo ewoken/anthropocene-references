@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Route, Switch, Redirect } from 'react-router-dom';
-import { Layout } from 'antd';
+import { Layout, Menu, Icon } from 'antd';
 import HomeView from '../views/home/HomeView';
 
 function AppLayout() {
@@ -9,7 +9,26 @@ function AppLayout() {
     <div className="AppLayout">
       <Layout>
         <Layout.Header>
-          <h1>Références</h1>
+          <Menu
+            mode="horizontal"
+            theme="dark"
+            selectable={false}
+            style={{ lineHeight: '64px' }}
+          >
+            <Menu.Item key="home">
+              <strong>Références</strong>
+            </Menu.Item>
+            <Menu.Item key="github">
+              <a
+                href="https://github.com/ewoken/anthropocene-references"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {'GitHub '}
+                <Icon type="github" theme="outlined" />
+              </a>
+            </Menu.Item>
+          </Menu>
         </Layout.Header>
         <Layout.Content>
           <Switch>
