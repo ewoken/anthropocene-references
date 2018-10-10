@@ -24,5 +24,10 @@ SearchComponent.propTypes = {
 
 export default connect(
   null,
-  { onSearch: updateSearch },
+  (dispatch, props) => ({
+    onSearch(value) {
+      props.resetPage();
+      dispatch(updateSearch(value));
+    },
+  }),
 )(SearchComponent);

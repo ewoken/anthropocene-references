@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { List, Card, Icon, Tooltip } from 'antd';
+import { List, Card, Icon, Tooltip, Pagination } from 'antd';
 
 import filteredReferencesSelector from '../../store/filteredReferences';
 
@@ -95,10 +95,11 @@ ReferenceCard.propTypes = {
 };
 
 function HomeView(props) {
-  const { references } = props;
+  const { references, total, currentPage, pageSize, goToPage } = props;
   return (
     <div className="HomeView">
       <List
+        header={<div>{`Nombre de référence: ${total}`}</div>}
         grid={{ gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 4, xxl: 3 }}
         dataSource={references}
         locale={{ emptyText: 'Aucune référence' }}
@@ -107,19 +108,46 @@ function HomeView(props) {
             <ReferenceCard reference={reference} />
           </List.Item>
         )}
+        footer={( // eslint-disable-line
+          <Pagination
+            current={currentPage}
+            pageSize={pageSize}
+            total={total}
+            hideOnSinglePage
+            onChange={goToPage}
+          />
+        )} // eslint-disable-line
       />
     </div>
   );
 }
 
 HomeView.propTypes = {
+  currentPage: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired,
+  pageSize: PropTypes.number.isRequired,
   references: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string.isRequired,
     }),
   ).isRequired,
+  goToPage: PropTypes.func.isRequired,
 };
 
-export default connect(state => ({
-  references: filteredReferencesSelector(state),
-}))(HomeView);
+export default connect((state, props) => {
+  const currentPage = Number(props.match.params.page);
+  const { total, references, pageSize } = filteredReferencesSelector(
+    currentPage,
+    state,
+  );
+  return {
+    currentPage,
+    total,
+    references,
+    pageSize,
+    goToPage: page => {
+      window.scroll(0, 0);
+      props.history.push(`/${page}`);
+    },
+  };
+})(HomeView);

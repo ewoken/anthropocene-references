@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
 import { Layout, Menu, Popover, Button } from 'antd';
 import SearchComponent from './SearchComponent';
 import GitHubLink from './GitHubLink';
@@ -8,7 +9,7 @@ import AddComponent from './AddComponent';
 
 import HomeView from '../views/home/HomeView';
 
-function AppLayout() {
+function AppLayout(props) {
   return (
     <div className="AppLayout">
       <Layout>
@@ -23,7 +24,7 @@ function AppLayout() {
               <strong>Références</strong>
             </Menu.Item>
             <Menu.Item key="search">
-              <SearchComponent />
+              <SearchComponent resetPage={() => props.history.push('/1')} />
             </Menu.Item>
             <Menu.Item>
               <Popover content={<AddComponent />} trigger="click">
@@ -37,8 +38,8 @@ function AppLayout() {
         </Layout.Header>
         <Layout.Content style={{ padding: '0 50px', marginTop: 64 }}>
           <Switch>
-            <Route path="/" exact component={() => <HomeView />} />
-            <Route component={() => <Redirect to={{ pathname: '/' }} />} />
+            <Route path="/:page(\d+)" exact component={HomeView} />
+            <Route component={() => <Redirect to={{ pathname: '/1' }} />} />
           </Switch>
         </Layout.Content>
         {/* <Layout.Footer>Footer</Layout.Footer> */}
@@ -47,4 +48,10 @@ function AppLayout() {
   );
 }
 
-export default AppLayout;
+AppLayout.propTypes = {
+  history: PropTypes.shape({
+    push: PropTypes.func.isRequired,
+  }),
+};
+
+export default withRouter(AppLayout);
