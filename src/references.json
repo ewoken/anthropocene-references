@@ -158,11 +158,6 @@
     "type": "VIDEO"
   },
   {
-    "title": "[NEXT] Web série doc",
-    "url": "https://youtu.be/ImGLPH3eIdE",
-    "type": "SERIES"
-  },
-  {
     "title": "Soleil Vert",
     "url": "http://www.allocine.fr/film/fichefilm_gen_cfilm=300.html",
     "coverUrl": "http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/36/22/67/18463477.jpg",
@@ -270,19 +265,122 @@
     "type": "VIDEO"
   },
   {
-    "title": "ElectricityMap",
-    "url": "https://www.electricitymap.org",
-    "coverUrl": "./references/img/electricityMap.jpg",
-    "type": "TOOL"
+    "title": "Extrapolation of oil past production to forecast future production in barrels - Jean Laherrère",
+    "url": "https://aspofrance.files.wordpress.com/2018/08/35cooilforecast.pdf",
+    "type": "ARTICLE"
+  },
+  {
+    "title": "Last man standing",
+    "url": "https://www.instagram.com/p/BmRFnPyHKpx/?utm_source=ig_share_sheet&igshid=egcnz2mdp8ew",
+    "coverUrl": "https://scontent-cdg2-1.cdninstagram.com/vp/03c534de54bf2e6038261e8ce347904d/5C49ABEC/t51.2885-15/e35/37952108_498665373907120_8075525998180827136_n.jpg",
+    "type": "PICTURE"
+  },
+  {
+    "title": "Western Flag (Spindletop, Texas) - John Gerrard",
+    "url": "https://www.instagram.com/p/BoG_r2JCuUH/?utm_source=ig_share_sheet&igshid=1qacpw425jyym",
+    "coverUrl": "https://scontent-cdg2-1.cdninstagram.com/vp/53a59aba55fdcccdbfd2de8f72c23b65/5BC015B7/t51.2885-15/e15/41726434_845189042344172_1336598292512698990_n.jpg",
+    "type": "PICTURE"
+  },
+  {
+    "title": "Blog de Mathieu Auzanneau",
+    "url": "http://petrole.blog.lemonde.fr/",
+    "coverUrl": "http://petrole.blog.lemonde.fr/files/2017/01/tellerson-rex.jpg",
+    "type": "WEBSITE"
+  },
+  {
+    "title": "Vivons heureux en attendant la mort (Desproges)",
+    "url": "https://www.facebook.com/media/set/?set=ms.c.eJxFjkEOADEIAn~_0UWlV~%3Bv~_xTTW11wkMmDLhNCJ0h~%3BhnDeCCNPgFSYYsinNAVAX5KpWAXSC7HIwLtEHGkx6wBJPIkuqrSDtGaj0rbxY9uwf0U7tPufRUnGtAOTzzB~%3BMzNBQ~-.bps.a.2198368967049072&type=1&__xts__[0]=68.ARBMwpLvsoT2oVq8vuJKGLIgWZb4JnlGWNa-756qt0xsyZ1vjc93HHVEjPJgS3z_ozeIeztj7N-IskwQdmxSXopu4oTd6sc1p_JdBCuAA3SNFOkhRJrGXiN1-63xa3QbW_jTTemZAEIfNcrLm2VFwq6YxE19paAM7omy-rqbnC8wunw7_GfJeA&__tn__=HH-R",
+    "coverUrl": "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/42112688_2198369300382372_6053492164439048192_o.jpg?_nc_cat=102&oh=f2bdf6e497ab19434c3359fb0d51502a&oe=5C5187A3",
+    "type": "PICTURE"
+  },
+  {
+    "title": "On S'Mobilise - Alternatiba",
+    "url": "https://youtu.be/2c8CDj1WWJM",
+    "type": "MUSIC"
+  },
+  {
+    "title": "Plus chaud que le climat - Mali Karma",
+    "url": "https://www.facebook.com/anvcop21/videos/1792371750846229/?hc_ref=ARS-7_7jz9AS8jIAD8dfnyIpB5aH3qmR0GPBvlOoNbA438P4AFFjORDWnL5Gh0ZKkFI&fref=gs&dti=296173027391453&hc_location=group",
+    "type": "MUSIC"
+  },
+  {
+    "title": "Hello Humanity, it's me, Technology. We need to talk.",
+    "url": "https://youtu.be/ALugeRQbXAM",
+    "type": "VIDEO"
+  },
+  {
+    "title": "« Ce monde se défait sous nos yeux » : l’effondrement dans le regard d’une artiste",
+    "url": "https://mrmondialisation.org/ce-monde-se-defait-sous-nos-yeux-leffondrement-dans-le-regard-dune-artiste/",
+    "coverUrl": "https://i0.wp.com/mrmondialisation.org/wp-content/uploads/2018/08/01_Portrait.jpg",
+    "type": "ARTICLE"
+  },
+  {
+    "title": "Collapsologie & psychohistoire",
+    "url": "https://grisebouille.net/collapsologie-psychohistoire/",
+    "coverUrl": "https://grisebouille.net/wp-content/uploads/2018/09/lf_030_collapsologie_et_psychohistoire.png",
+    "type": "PICTURE"
   },
   {
     "title": "Énergie et environnement",
     "url": "https://energieetenvironnement.com/",
+    "coverUrl": "https://energieetenvironnement.files.wordpress.com/2018/02/cropped-image-principale.jpg",
     "type": "WEBSITE"
   },
   {
-    "title": "Extrapolation of oil past production to forecast future production in barrels - Jean Laherrère",
-    "url": "https://aspofrance.files.wordpress.com/2018/08/35cooilforecast.pdf",
-    "type": "ARTICLE"
+    "title": "ElectricityMap",
+    "url": "https://www.electricitymap.org",
+    "coverUrl": "./references/img/electricityMap.jpg",
+    "type": "WEBSITE"
+  },
+  {
+    "title": "[NEXT] Web série doc",
+    "url": "https://youtu.be/ImGLPH3eIdE",
+    "type": "SERIES"
+  },
+  {
+    "title": "Climate Hoax",
+    "url": "./references/img/climate_hoax.jpg",
+    "coverUrl": "./references/img/climate_hoax.jpg",
+    "type": "PICTURE"
+  },
+  {
+    "title": "Alone population",
+    "url": "./references/img/alone_population.jpg",
+    "coverUrl": "./references/img/alone_population.jpg",
+    "type": "PICTURE"
+  },
+  {
+    "title": "Archéologues du futur",
+    "url": "./references/img/future_archeologue.jpg",
+    "coverUrl": "./references/img/future_archeologue.jpg",
+    "type": "PICTURE"
+  },
+  {
+    "title": "Sixtine Apocalypse - Riber",
+    "url": "./references/img/sixtine_apocalypse_riber.jpg",
+    "coverUrl": "./references/img/sixtine_apocalypse_riber.jpg",
+    "type": "PICTURE"
+  },
+  {
+    "title": "Sommar, Sommar - Riber",
+    "url": "./references/img/sommar_sommar_riber.jpg",
+    "coverUrl": "./references/img/sommar_sommar_riber.jpg",
+    "type": "PICTURE"
+  },
+  {
+    "title": "Titanic mondial - Riber",
+    "url": "./references/img/titanic_mondial_riber.jpg",
+    "coverUrl": "./references/img/titanic_mondial_riber.jpg",
+    "type": "PICTURE"
+  },
+  {
+    "title": "Action, réaction",
+    "url": "https://www.facebook.com/putzgrilah/videos/942847322489996/UzpfSTY4NjcxODQ3Njo3MDAwODE1OTM2NjcyNTk/",
+    "type": "VIDEO"
+  },
+  {
+    "title": "2058",
+    "url": "https://youtu.be/l19L_8xvyDo",
+    "type": "SERIES"
   }
 ]

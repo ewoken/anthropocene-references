@@ -16,11 +16,16 @@ function TypeIcon({ type }) {
     case 'BOOK':
       return <Icon type="book" theme="outlined" />;
     case 'MOVIE':
+    case 'SERIES':
       return <Icon type="video-camera" theme="outlined" />;
     case 'WEBSITE':
       return <Icon type="global" theme="outlined" />;
     case 'PICTURE':
       return <Icon type="picture" theme="outlined" />;
+    case 'ASSOCIATION':
+      return <Icon type="team" theme="outlined" />;
+    case 'ARTICLE':
+      return <Icon type="file-text" theme="outlined" />;
     default:
       return null;
   }
