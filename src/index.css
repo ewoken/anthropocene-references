@@ -16,6 +16,7 @@ body {
 }
 
 img.Cover {
+  max-width: 100%;
   width: auto;
   margin: auto;
 }

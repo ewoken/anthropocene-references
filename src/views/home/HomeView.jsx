@@ -50,6 +50,15 @@ function Cover({ reference }) {
       />
     );
   }
+
+  if (reference.url && reference.url.endsWith('.pdf')) {
+    return (
+      <object className="Cover" data={reference.url} type="application/pdf">
+        <p>Viewer de pdf - Cliquez pour télécharger</p>
+      </object>
+    );
+  }
+
   return <div className="Cover" />;
 }
 
