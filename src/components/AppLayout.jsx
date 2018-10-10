@@ -1,8 +1,10 @@
 import React from 'react';
 
 import { Route, Switch, Redirect } from 'react-router-dom';
-import { Layout, Menu, Icon } from 'antd';
+import { Layout, Menu, Popover, Button } from 'antd';
 import SearchComponent from './SearchComponent';
+import GitHubLink from './GitHubLink';
+import AddComponent from './AddComponent';
 
 import HomeView from '../views/home/HomeView';
 
@@ -10,7 +12,7 @@ function AppLayout() {
   return (
     <div className="AppLayout">
       <Layout>
-        <Layout.Header>
+        <Layout.Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
           <Menu
             mode="horizontal"
             theme="dark"
@@ -23,19 +25,17 @@ function AppLayout() {
             <Menu.Item key="search">
               <SearchComponent />
             </Menu.Item>
+            <Menu.Item>
+              <Popover content={<AddComponent />} trigger="click">
+                <Button type="primary">Ajouter une référence</Button>
+              </Popover>
+            </Menu.Item>
             <Menu.Item key="github">
-              <a
-                href="https://github.com/ewoken/anthropocene-references"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {'GitHub '}
-                <Icon type="github" theme="outlined" />
-              </a>
+              <GitHubLink />
             </Menu.Item>
           </Menu>
         </Layout.Header>
-        <Layout.Content>
+        <Layout.Content style={{ padding: '0 50px', marginTop: 64 }}>
           <Switch>
             <Route path="/" exact component={() => <HomeView />} />
             <Route component={() => <Redirect to={{ pathname: '/' }} />} />

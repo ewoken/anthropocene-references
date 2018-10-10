@@ -11,7 +11,7 @@ function SearchComponent(props) {
     <div className="SearchComponent">
       <Input.Search
         placeholder="Recherche"
-        style={{ width: '50em' }}
+        style={{ width: '30em' }}
         onSearch={onSearch}
       />
     </div>

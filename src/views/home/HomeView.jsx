@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { List, Card, Icon } from 'antd';
+import { List, Card, Icon, Tooltip } from 'antd';
 
 import filteredReferencesSelector from '../../store/filteredReferences';
 
@@ -81,7 +81,7 @@ function ReferenceCard({ reference }) {
         <Card hoverable cover={<Cover reference={reference} />}>
           <Card.Meta
             avatar={<TypeIcon type={reference.type} />}
-            title={reference.title}
+            title={<Tooltip title={reference.title}>{reference.title}</Tooltip>}
           />
         </Card>
       </a>
