@@ -1,15 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
-import { Layout, Menu, Popover, Button } from 'antd';
-import SearchComponent from './SearchComponent';
+import { Route, Switch, Redirect, withRouter, Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { Layout, Menu, Popover, Button, Select } from 'antd';
+import queryString from 'query-string';
+
+import { ALL, typesSelector } from '../store/types';
+import HomeView from '../views/home/HomeView';
+
 import GitHubLink from './GitHubLink';
 import AddComponent from './AddComponent';
 
-import HomeView from '../views/home/HomeView';
-
 function AppLayout(props) {
+  const { location, types } = props;
+  const query = queryString.parse(location.search);
+
   return (
     <div className="AppLayout">
       <Layout>
@@ -21,10 +27,21 @@ function AppLayout(props) {
             style={{ lineHeight: '64px' }}
           >
             <Menu.Item key="home">
-              <strong>Références</strong>
+              <Link to="/">
+                <strong>Références</strong>
+              </Link>
             </Menu.Item>
-            <Menu.Item key="search">
-              <SearchComponent resetPage={() => props.history.push('/1')} />
+            <Menu.Item key="type">
+              <Select
+                placeholder="Type"
+                style={{ width: '100px' }}
+                value={query.type || ALL}
+                onChange={type => props.history.push(`/?type=${type}`)}
+              >
+                {types.map(type => (
+                  <Select.Option key={type.value}>{type.label}</Select.Option>
+                ))}
+              </Select>
             </Menu.Item>
             <Menu.Item>
               <Popover content={<AddComponent />} trigger="click">
@@ -38,8 +55,8 @@ function AppLayout(props) {
         </Layout.Header>
         <Layout.Content style={{ padding: '0 50px', marginTop: 64 }}>
           <Switch>
-            <Route path="/:page(\d+)" exact component={HomeView} />
-            <Route component={() => <Redirect to={{ pathname: '/1' }} />} />
+            <Route path="/" exact component={HomeView} />
+            <Route component={() => <Redirect to={{ pathname: '/' }} />} />
           </Switch>
         </Layout.Content>
         {/* <Layout.Footer>Footer</Layout.Footer> */}
@@ -51,7 +68,20 @@ function AppLayout(props) {
 AppLayout.propTypes = {
   history: PropTypes.shape({
     push: PropTypes.func.isRequired,
-  }),
+  }).isRequired,
+  location: PropTypes.shape({
+    search: PropTypes.string.isRequired,
+  }).isRequired,
+  types: PropTypes.arrayOf(
+    PropTypes.shape({
+      value: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
 };
 
-export default withRouter(AppLayout);
+export default withRouter(
+  connect(state => ({
+    types: typesSelector(state),
+  }))(AppLayout),
+);

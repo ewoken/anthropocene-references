@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { List, Card, Icon, Tooltip, Pagination } from 'antd';
+import queryString from 'query-string';
 
 import filteredReferencesSelector from '../../store/filteredReferences';
 
@@ -99,7 +100,7 @@ function HomeView(props) {
   return (
     <div className="HomeView">
       <List
-        header={<div>{`Nombre de référence: ${total}`}</div>}
+        header={<div>{`Nombre de références: ${total}`}</div>}
         grid={{ gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 4, xxl: 3 }}
         dataSource={references}
         locale={{ emptyText: 'Aucune référence' }}
@@ -135,9 +136,14 @@ HomeView.propTypes = {
 };
 
 export default connect((state, props) => {
-  const currentPage = Number(props.match.params.page);
+  const query = queryString.parse(props.location.search);
+  const currentPage = query.page ? Number(query.page) : 1;
+  const filteredType = query.type || 'ALL';
   const { total, references, pageSize } = filteredReferencesSelector(
-    currentPage,
+    {
+      type: filteredType,
+      page: currentPage,
+    },
     state,
   );
   return {
@@ -146,8 +152,8 @@ export default connect((state, props) => {
     references,
     pageSize,
     goToPage: page => {
-      window.scroll(0, 0);
-      props.history.push(`/${page}`);
+      window.scroll(0, 0); // TODO
+      props.history.push(`/?page=${page}`);
     },
   };
 })(HomeView);
