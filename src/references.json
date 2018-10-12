@@ -29,7 +29,7 @@
     "url": "http://www.editionsladecouverte.fr/catalogue/index-Or_noir-9782707167019.html",
     "coverUrl": "http://extranet.editis.com/it-yonixweb/IMAGES/DEC/P3/9782707167019.jpg",
     "type": "BOOK",
-    "tags": ["énergie", "pétrole", "Histoire"]
+    "tags": ["pétrole", "Histoire"]
   },
   {
     "title": "Sans Lendemain - Dermot O' Connor",
@@ -117,25 +117,26 @@
     "url": "https://xkcd.com/1732/",
     "coverUrl": "https://imgs.xkcd.com/comics/earth_temperature_timeline_2x.png",
     "type": "PICTURE",
-    "tags": ["climat"]
+    "tags": ["climat", "Histoire"]
   },
   {
     "title": "Thermodynamique de l'évolution : Un essai de thermo-bio-sociologie - François Roddier",
     "url": "http://www.editions-parole.net/?product=thermodynamique-de-levolution-un-essai-de-thermo-bio-sociologie",
     "coverUrl": "https://www.editions-parole.net/siteinteractifparoleeditions/wp-content/uploads/2014/10/COUV-THERMODYNAMIQUE-2.png",
     "type": "BOOK",
-    "tags": ["énergie"]
+    "tags": ["énergie", "biologie", "économie"]
   },
   {
     "title": "La thermodynamique de l'évolution : du Big Bang aux sciences humaines - François Roddier",
     "url": "https://youtu.be/6lNz5vmKEFA",
     "type": "VIDEO",
-    "tags": ["énergie"]
+    "tags": ["énergie", "biologie", "économie"]
   },
   {
     "title": "Site de François Roddier",
     "url": "http://www.francois-roddier.fr/",
-    "type": "WEBSITE"
+    "type": "WEBSITE",
+    "tags": ["énergie", "biologie", "économie"]
   },
   {
     "title": "Nous y sommes - Matmatah",
@@ -172,7 +173,8 @@
     "title": "L'entraide, l'autre loi de la jungle - Servigne, Chapelle",
     "url": "http://www.editionslesliensquiliberent.fr/livre-L_Entraide-9791020904409-1-1-0-1.html",
     "coverUrl": "http://www.editionslesliensquiliberent.fr/images/livre_affiche_525.png",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["biologie"]
   },
   {
     "title": "Nauru: le destin tragique de l'île la plus riche du monde",
@@ -204,12 +206,14 @@
     "title": "Institut momentum",
     "url": "http://www.institutmomentum.org/",
     "coverUrl": "http://www.institutmomentum.org/wp-content/themes/wp-starter/img/logo_momentum.gif",
-    "type": "ASSOCIATION"
+    "type": "ASSOCIATION",
+    "tags": ["collapsologie"]
   },
   {
     "title": "TEDx - La 2ème loi de la jungle : l'entraide - Pablo Servigne",
     "url": "https://youtu.be/ChkzJPO45qc",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["biologie"]
   },
   {
     "title": "Pourquoi tout va s'effondrer",
@@ -300,7 +304,7 @@
     "title": "Visite de la ferme du Bec Hellouin",
     "url": "https://youtu.be/bhaYY7ByGFc",
     "type": "VIDEO",
-    "tags": ["agroécolologie"]
+    "tags": ["agriculture"]
   },
   {
     "title": "Extrapolation of oil past production to forecast future production in barrels - Jean Laherrère",
@@ -319,7 +323,8 @@
     "title": "Western Flag (Spindletop, Texas) - John Gerrard",
     "url": "https://www.instagram.com/p/BoG_r2JCuUH/?utm_source=ig_share_sheet&igshid=1qacpw425jyym",
     "coverUrl": "https://scontent-cdg2-1.cdninstagram.com/vp/53a59aba55fdcccdbfd2de8f72c23b65/5BC015B7/t51.2885-15/e15/41726434_845189042344172_1336598292512698990_n.jpg",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art", "pétrole"]
   },
   {
     "title": "Blog de Mathieu Auzanneau",
@@ -442,5 +447,199 @@
     "url": "https://youtu.be/l19L_8xvyDo",
     "type": "SERIES",
     "tags": ["collapsologie", "art"]
+  },
+  {
+    "title": "Scénario catastrophe",
+    "url": "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/43738844_10157734144382281_6186986907709210624_o.jpg?_nc_cat=100&oh=25d989ad3964cc1a5e61d00840afd716&oe=5C5358CC",
+    "coverUrl": "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/43738844_10157734144382281_6186986907709210624_o.jpg?_nc_cat=100&oh=25d989ad3964cc1a5e61d00840afd716&oe=5C5358CC",
+    "type": "PICTURE",
+    "tags": ["art", "climat"]
+  },
+  {
+    "title": "Utopies concretes",
+    "url": "http://utopies-concretes.org/#/home",
+    "type": "WEBSITE",
+    "tags": ["art"]
+  },
+  {
+    "title": "Empreintes du quotidien",
+    "url": "https://www.novethic.fr/actualite/environnement/pollution/isr-rse/infographie-telephone-frigo-garde-robe-les-equipements-de-maison-representent-un-quart-des-emissions-de-co2-des-francais-146416.html",
+    "coverUrl": "https://www.novethic.fr/fileadmin/poids-environnemental-objets-quotidien.jpg",
+    "type": "ARTICLE",
+    "tags": ["climat"]
+  },
+  {
+    "title": "Éthique & Animaux: L214",
+    "url": "https://www.l214.com/",
+    "coverUrl": "https://visuels.l214.com/sites/www.l214.com/2012/logo-L214.png",
+    "type": "ASSOCIATION",
+    "tags": ["agriculture"]
+  },
+  {
+    "title": "168 années de changement climatique",
+    "url": "https://www.facebook.com/1173414154/videos/10216317712353450/",
+    "coverUrl": "https://scontent-cdg2-1.xx.fbcdn.net/v/t15.5256-10/s403x403/37823329_10216317717113569_88210463527010304_n.jpg?_nc_cat=106&oh=12215cdaeea52a151a40e581b95976d5&oe=5C528290",
+    "type": "VIDEO",
+    "tags": ["climat", "Histoire"]
+  },
+  {
+    "title": "Les charbonniers - Monet",
+    "url": "http://www.musee-orsay.fr/fr/collections/oeuvres-commentees/recherche/commentaire/commentaire_id/les-charbonniers-349.html",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Monet_men_unloading_coal.jpg",
+    "type": "PICTURE",
+    "tags": ["art", "charbon"]
+  },
+  {
+    "title": "Germinal - Zola",
+    "url": "https://fr.wikipedia.org/wiki/Germinal_(roman)",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gil_Blas_-_Germinal.jpg",
+    "type": "BOOK",
+    "tags": ["art", "charbon"]
+  },
+  {
+    "title": "Barrage des Trois-Gorges",
+    "url": "https://fr.wikipedia.org/wiki/Barrage_des_Trois-Gorges",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/ThreeGorgesDam-China2009.jpg/640px-ThreeGorgesDam-China2009.jpg",
+    "type": "PICTURE",
+    "tags": ["hydroélectricité"]
+  },
+  {
+    "title": "Spindletop",
+    "url": "https://fr.wikipedia.org/wiki/Spindletop",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Lucas_gusher.jpg",
+    "type": "PICTURE",
+    "tags": ["pétrole", "Histoire"]
+  },
+  {
+    "title": "Réacteur nucléaire",
+    "url": "https://youtu.be/uYrhWO_ZLYw",
+    "type": "VIDEO",
+    "tags": ["nucléaire", "convertisseur"]
+  },
+  {
+    "title": "L'histoire du pétrole",
+    "url": "https://youtu.be/dC4AVGDgsT8",
+    "type": "VIDEO",
+    "tags": ["pétrole", "Histoire"]
+  },
+  {
+    "title": "Les corons",
+    "url": "https://youtu.be/cXARMIQdIpM",
+    "type": "MUSIC",
+    "tags": ["art", "charbon"]
+  },
+  {
+    "title": "First Moon Landing",
+    "url": "https://youtu.be/cwZb2mqId0A",
+    "type": "VIDEO",
+    "tags": ["Histoire"]
+  },
+  {
+    "title": "Moteur à combustion interne",
+    "url": "https://fr.wikipedia.org/wiki/Moteur_%C3%A0_combustion_et_explosion",
+    "coverUrl": "./references/img/moteur_combustion_interne.jpg",
+    "type": "PICTURE",
+    "tags": ["convertisseur"]
+  },
+  {
+    "title": "Cartes mondiales des pipelines",
+    "url": "https://geomondiale.fr/pipelines/",
+    "coverUrl": "https://geomondiale.fr/pipelines/europe_oil_and_gas_pipelines_map.jpg",
+    "type": "WEBSITE",
+    "tags": ["pétrole", "gaz"]
+  },
+  {
+    "title": "Locomotive 242 A 1 - SNCF",
+    "url": "https://fr.wikipedia.org/wiki/Locomotive_%C3%A0_vapeur",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SNCF_Class_242_A1.jpg/640px-SNCF_Class_242_A1.jpg",
+    "type": "PICTURE",
+    "tags": ["charbon", "technique", "Histoire"]
+  },
+  {
+    "title": "Excavation de charbon en Allemagne",
+    "url": "https://youtu.be/SM_tRfYmgA0",
+    "type": "VIDEO",
+    "tags": ["charbon"]
+  },
+  {
+    "title": "Ateshgah - Bakou",
+    "url": "https://fr.wikipedia.org/wiki/Temple_du_feu",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ateshgah_-_%22Fire_Temple%22.JPG/640px-Ateshgah_-_%22Fire_Temple%22.JPG",
+    "type": "PICTURE",
+    "tags": ["pétrole", "gaz", "Histoire", "art"]
+  },
+  {
+    "title": "Géopolitique du pétrole",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Oil_blood_tank_cropped.jpg",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Oil_blood_tank_cropped.jpg/320px-Oil_blood_tank_cropped.jpg",
+    "type": "PICTURE",
+    "tags": ["art", "pétrole", "guerre"]
+  },
+  {
+    "title": "The Shift Project",
+    "url": "https://theshiftproject.org",
+    "coverUrl": "https://theshiftproject.org/wp-content/uploads/2018/01/LOGO-2-TSP-L1000PX-TRANSPARENT.png",
+    "type": "ASSOCIATION",
+    "tags": ["énergie", "climat"]
+  },
+  {
+    "title": "Méthanier",
+    "url": "https://fr.wikipedia.org/wiki/M%C3%A9thanier",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/LNG_Carrier_Fuji_Lng.jpg/640px-LNG_Carrier_Fuji_Lng.jpg",
+    "type": "PICTURE",
+    "tags": ["gaz"]
+  },
+  {
+    "title": "Gazoduc en Alaska",
+    "url": "./references/img/gazoduc_alaska.jpg",
+    "coverUrl": "./references/img/gazoduc_alaska.jpg",
+    "type": "PICTURE",
+    "tags": ["gaz"]
+  },
+  {
+    "title": "Gazinière",
+    "url": "./references/img/gaziniere.jpg",
+    "coverUrl": "./references/img/gaziniere.jpg",
+    "type": "PICTURE",
+    "tags": ["gaz", "convertisseur"]
+  },
+  {
+    "title": "Syrie et les gazoducs",
+    "url": "https://youtu.be/PXd0tRiRweo",
+    "type": "VIDEO",
+    "tags": ["guerre", "gaz"]
+  },
+  {
+    "title": "Marée noire: l'Amoco Cadiz",
+    "url": "https://youtu.be/AQqfd9DVMBM",
+    "type": "VIDEO",
+    "tags": ["pétrole"]
+  },
+  {
+    "title": "L'hydroélectricité",
+    "url": "https://youtu.be/71EopUDDJ04",
+    "type": "VIDEO",
+    "tags": ["hydroélectricité"]
+  },
+  {
+    "title": "Moulin à eau au XVème siècle",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Landscape_with_a_watermill_-_Le_Tresor_des_Histoires_%2815th_C%29%2C_f.345v_-_BL_Cotton_MS_Augustus_V.jpg/1024px-Landscape_with_a_watermill_-_Le_Tresor_des_Histoires_%2815th_C%29%2C_f.345v_-_BL_Cotton_MS_Augustus_V.jpg",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Landscape_with_a_watermill_-_Le_Tresor_des_Histoires_%2815th_C%29%2C_f.345v_-_BL_Cotton_MS_Augustus_V.jpg/640px-Landscape_with_a_watermill_-_Le_Tresor_des_Histoires_%2815th_C%29%2C_f.345v_-_BL_Cotton_MS_Augustus_V.jpg",
+    "type": "PICTURE",
+    "tags": ["hydroélectricité"]
+  },
+  {
+    "title": "DirtyBiology",
+    "url": "https://www.youtube.com/user/dirtybiology/featured",
+    "coverUrl": "https://yt3.ggpht.com/a-/AN66SAxfYD57BxRd6_Ca00xOZmRTgSC4IAdYZl55vA=s288-mo-c-c0xffffffff-rj-k-no",
+    "type": "CHANNEL",
+    "tags": ["biologie"]
+  },
+  {
+    "title": "Indicateurs de l'anthropocène",
+    "url": "./references/img/anthropocene.png",
+    "coverUrl": "./references/img/anthropocene.png",
+    "type": "PICTURE",
+    "tags": ["climat", "environnement"]
   }
 ]
