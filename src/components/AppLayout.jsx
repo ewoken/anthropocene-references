@@ -7,14 +7,17 @@ import { Layout, Menu, Popover, Button, Select } from 'antd';
 import queryString from 'query-string';
 
 import { ALL, typesSelector } from '../store/types';
+import { tagsSelector } from '../store/tags';
 import HomeView from '../views/home/HomeView';
 
 import GitHubLink from './GitHubLink';
 import AddComponent from './AddComponent';
 
 function AppLayout(props) {
-  const { location, types } = props;
+  // TODO
+  const { location, types, tags } = props;
   const query = queryString.parse(location.search);
+  const queryTags = query.tags ? [].concat(query.tags) : [];
 
   return (
     <div className="AppLayout">
@@ -31,12 +34,38 @@ function AppLayout(props) {
                 <strong>Références</strong>
               </Link>
             </Menu.Item>
+            <Menu.Item>
+              <Select
+                className="AppLayout__tagSelect"
+                mode="multiple"
+                placeholder="Filtrer"
+                notFoundContent="Aucun tag"
+                maxTagCount={2}
+                value={queryTags}
+                onChange={newTags => {
+                  props.history.push(
+                    `/?${queryString.stringify({
+                      tags: newTags,
+                      type: query.type,
+                    })}`,
+                  );
+                }}
+                allowClear
+              >
+                {tags.map(t => (
+                  <Select.Option key={t}>{t}</Select.Option>
+                ))}
+              </Select>
+            </Menu.Item>
             <Menu.Item key="type">
               <Select
-                placeholder="Type"
                 style={{ width: '100px' }}
                 value={query.type || ALL}
-                onChange={type => props.history.push(`/?type=${type}`)}
+                onChange={type =>
+                  props.history.push(
+                    `/?${queryString.stringify({ tags: queryTags, type })}`,
+                  )
+                }
               >
                 {types.map(type => (
                   <Select.Option key={type.value}>{type.label}</Select.Option>
@@ -78,10 +107,12 @@ AppLayout.propTypes = {
       label: PropTypes.string.isRequired,
     }),
   ).isRequired,
+  tags: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default withRouter(
   connect(state => ({
     types: typesSelector(state),
+    tags: tagsSelector(state),
   }))(AppLayout),
 );

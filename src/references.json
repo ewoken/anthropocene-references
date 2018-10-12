@@ -2,12 +2,14 @@
   {
     "title": "A quand la rupture énergétique ? - Jancovici",
     "url": "https://youtu.be/2JH6TwaDYW4",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["énergie", "climat", "économie"]
   },
   {
     "title": "Tant Mieux ! - BAK XIII",
     "url": "https://youtu.be/DVaO7arF0Ng",
-    "type": "MUSIC"
+    "type": "MUSIC",
+    "tags": ["art"]
   },
   {
     "title": "Demain",
@@ -19,18 +21,21 @@
     "title": "Le réveilleur",
     "coverUrl": "https://yt3.ggpht.com/a-/AN66SAzz6GG_lbm9UJs3sPoZ5snP6McYLDMf3WGVvA=s288-mo-c-c0xffffffff-rj-k-no",
     "url": "https://www.youtube.com/channel/UC1EacOJoqsKaYxaDomTCTEQ/featured",
-    "type": "CHANNEL"
+    "type": "CHANNEL",
+    "tags": ["énergie", "climat"]
   },
   {
     "title": "Or noir, la grande histoire du pétrole - Auzanneau",
     "url": "http://www.editionsladecouverte.fr/catalogue/index-Or_noir-9782707167019.html",
     "coverUrl": "http://extranet.editis.com/it-yonixweb/IMAGES/DEC/P3/9782707167019.jpg",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["énergie", "pétrole", "Histoire"]
   },
   {
     "title": "Sans Lendemain - Dermot O' Connor",
     "url": "https://youtu.be/GTYNbKJpAA4",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["collapsologie"]
   },
   {
     "title": "Thinkerview",
@@ -48,72 +53,84 @@
     "title": "Site de Jean-Marc Jancovici",
     "url": "https://jancovici.com/",
     "coverUrl": "https://jancovici.com/wp-content/uploads/2016/05/JM-sans-cravate.jpg",
-    "type": "WEBSITE"
+    "type": "WEBSITE",
+    "tags": ["énergie", "climat"]
   },
   {
     "title": "Fresque Black Lines sur l’écologie",
     "url": "http://www.christianjuliaphotos.fr/Fresque-Black-Lines-sur-l-ecologie.html",
     "coverUrl": "http://www.christianjuliaphotos.fr/IMG/jpg/DSC09630-2.jpg",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art"]
   },
   {
     "title": "Comment tout peut s'effondrer - Servigne, Stevens",
     "url": "http://www.seuil.com/ouvrage/comment-tout-peut-s-effondrer-pablo-servigne/9782021223316",
     "coverUrl": "http://ref.lamartinieregroupe.com/media/9782021223316/grande/122331_couverture_Hres_0.jpg",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["collapsologie"]
   },
   {
     "title": "Le Pic Pétrolier - Stuart McMillen",
     "url": "http://www.stuartmcmillen.com/fr/comic/le-pic-petrolier/",
     "coverUrl": "http://www.stuartmcmillen.com/wp-content/uploads/2015/05/2015-04-fr-Peak-Oil-001.png",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["art", "pétrole"]
   },
   {
     "title": "Présages",
     "url": "https://www.presages.fr/",
     "coverUrl": "https://static1.squarespace.com/static/5a4d4a721f318dbfc2d76b80/t/5a9838b453450a2a54d73e4a/1519925443053/PRESAGES?format=750w",
-    "type": "PODCAST"
+    "type": "PODCAST",
+    "tags": ["collapsologie"]
   },
   {
     "title": "L'Effondrement des sociétés complexes - Tainter",
     "url": "https://www.leretourauxsources.com/essais/19-leffondrement-des-societes-complexes.html",
     "coverUrl": "https://www.leretourauxsources.com/37-large_default/leffondrement-des-societes-complexes.jpg",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["collapsologie"]
   },
   {
-    "title": "L'Âge des low tech. Vers une civilisation techniquement soutenable - Bihouix",
+    "title": "L'Âge des low tech - Bihouix",
     "url": "http://www.seuil.com/ouvrage/l-age-des-low-tech-philippe-bihouix/9782021160727",
     "coverUrl": "http://ref.lamartinieregroupe.com/media/9782021160727/grande/116072_couverture_Hres_0.jpg",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["low-tech", "métaux"]
   },
   {
     "title": "Les cinq stades de l'effondrement - Orlov",
     "url": "https://www.leretourauxsources.com/blog/sortie-de-les-cinq-stades-de-l-effondrement-de-dmitry-orlov-n1727",
     "coverUrl": "http://scribedi.myhostpoint.ch/img/cms/prestablog/2016/06/5stades.png",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["collapsologie"]
   },
   {
-    "title": "Effondrement: Comment les sociétés décident de leur disparition ou de leur survie - Diamond",
+    "title": "Effondrement - Diamond",
     "url": "http://www.gallimard.fr/Catalogue/GALLIMARD/Folio/Folio-essais/Effondrement",
     "coverUrl": "http://www.gallimard.fr/var/storage/images/product/429/product_9782070364305_195x320.jpg",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["collapsologie", "Histoire"]
   },
   {
     "title": "Earth Temperature Timeline",
     "url": "https://xkcd.com/1732/",
     "coverUrl": "https://imgs.xkcd.com/comics/earth_temperature_timeline_2x.png",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["climat"]
   },
   {
     "title": "Thermodynamique de l'évolution : Un essai de thermo-bio-sociologie - François Roddier",
     "url": "http://www.editions-parole.net/?product=thermodynamique-de-levolution-un-essai-de-thermo-bio-sociologie",
     "coverUrl": "https://www.editions-parole.net/siteinteractifparoleeditions/wp-content/uploads/2014/10/COUV-THERMODYNAMIQUE-2.png",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["énergie"]
   },
   {
     "title": "La thermodynamique de l'évolution : du Big Bang aux sciences humaines - François Roddier",
     "url": "https://youtu.be/6lNz5vmKEFA",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["énergie"]
   },
   {
     "title": "Site de François Roddier",
@@ -123,28 +140,33 @@
   {
     "title": "Nous y sommes - Matmatah",
     "url": "https://youtu.be/SnYR3Z3SWeI",
-    "type": "MUSIC"
+    "type": "MUSIC",
+    "tags": ["art"]
   },
   {
     "title": "Je Suis Un Homme - Zazie",
     "url": "https://youtu.be/oSIoP7h4B_M",
-    "type": "MUSIC"
+    "type": "MUSIC",
+    "tags": ["art"]
   },
   {
     "title": "Collapsologie & courbe de deuil - Matthieu Vanniel",
     "url": "https://www.presages.fr/blog/2018/1/4/3-bla-bla",
     "coverUrl": "https://static1.squarespace.com/static/5a4d4a721f318dbfc2d76b80/t/5a4e1696419202af0826e071/1515067070392/?format=2500w",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art", "collapsologie"]
   },
   {
     "title": "Respire - Mickey 3d",
     "url": "https://youtu.be/Iwb6u1Jo1Mc",
-    "type": "MUSIC"
+    "type": "MUSIC",
+    "tags": ["art"]
   },
   {
     "title": "Thermostat 6 - Les Gobelins",
     "url": "https://youtu.be/j6Hz_gdqS1k",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["art"]
   },
   {
     "title": "L'entraide, l'autre loi de la jungle - Servigne, Chapelle",
@@ -155,19 +177,22 @@
   {
     "title": "Nauru: le destin tragique de l'île la plus riche du monde",
     "url": "https://youtu.be/HXOoWfTGZmA",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["Histoire"]
   },
   {
     "title": "Soleil Vert",
     "url": "http://www.allocine.fr/film/fichefilm_gen_cfilm=300.html",
     "coverUrl": "http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/36/22/67/18463477.jpg",
-    "type": "MOVIE"
+    "type": "MOVIE",
+    "tags": ["art"]
   },
   {
     "title": "Adrastia",
     "url": "http://adrastia.org/",
     "coverUrl": "http://adrastia.org/wp-content/uploads/2017/07/Site.4.png",
-    "type": "ASSOCIATION"
+    "type": "ASSOCIATION",
+    "tags": ["collapsologie"]
   },
   {
     "title": "Ils changent le monde ! - Hopkins",
@@ -189,12 +214,14 @@
   {
     "title": "Pourquoi tout va s'effondrer",
     "url": "https://youtu.be/eyqPs8n8w8I",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["collapsologie"]
   },
   {
     "title": "Le pétrole - The Shift Project",
     "url": "https://youtu.be/0ph9rN-K1uE",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["pétrole"]
   },
   {
     "title": "Chroniques de l'Anthropocène - Alain Grandjean",
@@ -206,74 +233,87 @@
     "title": "ASPO France",
     "url": "https://aspofrance.org/",
     "coverUrl": "https://aspofrance.files.wordpress.com/2016/10/logo_aspo_france_4e_280.png",
-    "type": "ASSOCIATION"
+    "type": "ASSOCIATION",
+    "tags": ["pétrole"]
   },
   {
     "title": "Sapiens - Harari",
     "url": "https://www.albin-michel.fr/ouvrages/sapiens-9782226257017",
     "coverUrl": "https://www.albin-michel.fr/file/image/aGFuZGxlcj1maXQmd2lkdGg9MzEw/9782226257017-x.jpg",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["Histoire"]
   },
   {
     "title": "Black-out - Marc Elsberg",
     "url": "https://www.livredepoche.com/livre/black-out-9782253098690",
     "coverUrl": "https://www.livredepoche.com/sites/default/files/styles/manual_crop_269_435/public/images/livres/couv/9782253098690-001-T.jpeg?itok=oWgyCHjg",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["art"]
   },
   {
     "title": "Île de Saint-Mathieu - Stuart McMillen",
     "url": "http://www.stuartmcmillen.com/fr/comic/ile-saint-matthieu/",
     "coverUrl": "http://www.stuartmcmillen.com/wp-content/uploads/2011/02/2011-02-fr-St-Matthew-Island-01.png",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["Histoire"]
   },
   {
     "title": "Energy Slaves - Stuart McMillen",
     "url": "http://www.stuartmcmillen.com/comic/energy-slaves/",
     "coverUrl": "http://www.stuartmcmillen.com/wp-content/uploads/2017/04/2017-04-en-Energy-Slaves-02.png",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["art"]
   },
   {
     "title": "Mad Max : Fury Road",
     "url": "http://www.allocine.fr/film/fichefilm_gen_cfilm=125054.html",
     "coverUrl": "http://fr.web.img4.acsta.net/c_215_290/pictures/15/04/14/18/30/215297.jpg",
-    "type": "MOVIE"
+    "type": "MOVIE",
+    "tags": ["art"]
   },
   {
     "title": "Extrait de A la poursuite de demain (Tomorrowland)",
     "url": "https://youtu.be/Q9d6mpKovtQ",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["art"]
   },
   {
     "title": "Low-tech lab",
     "url": "http://lowtechlab.org/wiki/Accueil",
     "coverUrl": "http://lowtechlab.org/w/skins/lowtechlab-skin/assets/bg-hp-ok.jpg",
-    "type": "WEBSITE"
+    "type": "WEBSITE",
+    "tags": ["low-tech"]
   },
   {
     "title": "L'entropie vue par les Shadoks",
     "url": "https://youtu.be/JeZNggxmw64",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["art", "énergie"]
   },
   {
     "title": "Olympic Cyclist Vs. Toaster: Can He Power It?",
     "url": "https://youtu.be/S4O5voOCqAQ",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["énergie"]
   },
   {
     "title": "Visite de la ferme du Bec Hellouin",
     "url": "https://youtu.be/bhaYY7ByGFc",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["agroécolologie"]
   },
   {
     "title": "Extrapolation of oil past production to forecast future production in barrels - Jean Laherrère",
     "url": "https://aspofrance.files.wordpress.com/2018/08/35cooilforecast.pdf",
-    "type": "ARTICLE"
+    "type": "ARTICLE",
+    "tags": ["pétrole"]
   },
   {
     "title": "Last man standing",
     "url": "https://www.instagram.com/p/BmRFnPyHKpx/?utm_source=ig_share_sheet&igshid=egcnz2mdp8ew",
     "coverUrl": "https://scontent-cdg2-1.cdninstagram.com/vp/03c534de54bf2e6038261e8ce347904d/5C49ABEC/t51.2885-15/e35/37952108_498665373907120_8075525998180827136_n.jpg",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art"]
   },
   {
     "title": "Western Flag (Spindletop, Texas) - John Gerrard",
@@ -285,102 +325,122 @@
     "title": "Blog de Mathieu Auzanneau",
     "url": "http://petrole.blog.lemonde.fr/",
     "coverUrl": "http://petrole.blog.lemonde.fr/files/2017/01/tellerson-rex.jpg",
-    "type": "WEBSITE"
+    "type": "WEBSITE",
+    "tags": ["économie", "pétrole"]
   },
   {
     "title": "Vivons heureux en attendant la mort (Desproges)",
     "url": "https://www.facebook.com/media/set/?set=ms.c.eJxFjkEOADEIAn~_0UWlV~%3Bv~_xTTW11wkMmDLhNCJ0h~%3BhnDeCCNPgFSYYsinNAVAX5KpWAXSC7HIwLtEHGkx6wBJPIkuqrSDtGaj0rbxY9uwf0U7tPufRUnGtAOTzzB~%3BMzNBQ~-.bps.a.2198368967049072&type=1&__xts__[0]=68.ARBMwpLvsoT2oVq8vuJKGLIgWZb4JnlGWNa-756qt0xsyZ1vjc93HHVEjPJgS3z_ozeIeztj7N-IskwQdmxSXopu4oTd6sc1p_JdBCuAA3SNFOkhRJrGXiN1-63xa3QbW_jTTemZAEIfNcrLm2VFwq6YxE19paAM7omy-rqbnC8wunw7_GfJeA&__tn__=HH-R",
     "coverUrl": "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/42112688_2198369300382372_6053492164439048192_o.jpg?_nc_cat=102&oh=f2bdf6e497ab19434c3359fb0d51502a&oe=5C5187A3",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art"]
   },
   {
     "title": "On S'Mobilise - Alternatiba",
     "url": "https://youtu.be/2c8CDj1WWJM",
-    "type": "MUSIC"
+    "type": "MUSIC",
+    "tags": ["art"]
   },
   {
     "title": "Plus chaud que le climat - Mali Karma",
     "url": "https://www.facebook.com/anvcop21/videos/1792371750846229/?hc_ref=ARS-7_7jz9AS8jIAD8dfnyIpB5aH3qmR0GPBvlOoNbA438P4AFFjORDWnL5Gh0ZKkFI&fref=gs&dti=296173027391453&hc_location=group",
-    "type": "MUSIC"
+    "coverUrl": "https://scontent-cdg2-1.xx.fbcdn.net/v/t15.5256-10/p960x960/38967637_1786776978072373_7940991658076667904_n.jpg?_nc_cat=102&oh=23eb913d657ef5e678ca32aac9a5952a&oe=5C47742B",
+    "type": "MUSIC",
+    "tags": ["art", "climat"]
   },
   {
     "title": "Hello Humanity, it's me, Technology. We need to talk.",
     "url": "https://youtu.be/ALugeRQbXAM",
-    "type": "VIDEO"
+    "type": "VIDEO",
+    "tags": ["art"]
   },
   {
     "title": "« Ce monde se défait sous nos yeux » : l’effondrement dans le regard d’une artiste",
     "url": "https://mrmondialisation.org/ce-monde-se-defait-sous-nos-yeux-leffondrement-dans-le-regard-dune-artiste/",
     "coverUrl": "https://i0.wp.com/mrmondialisation.org/wp-content/uploads/2018/08/01_Portrait.jpg",
-    "type": "ARTICLE"
+    "type": "ARTICLE",
+    "tags": ["art"]
   },
   {
     "title": "Collapsologie & psychohistoire",
     "url": "https://grisebouille.net/collapsologie-psychohistoire/",
     "coverUrl": "https://grisebouille.net/wp-content/uploads/2018/09/lf_030_collapsologie_et_psychohistoire.png",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art", "collapsologie"]
   },
   {
     "title": "Énergie et environnement",
     "url": "https://energieetenvironnement.com/",
     "coverUrl": "https://energieetenvironnement.files.wordpress.com/2018/02/cropped-image-principale.jpg",
-    "type": "WEBSITE"
+    "type": "WEBSITE",
+    "tags": ["énergie"]
   },
   {
     "title": "ElectricityMap",
     "url": "https://www.electricitymap.org",
     "coverUrl": "./references/img/electricityMap.jpg",
-    "type": "WEBSITE"
+    "type": "WEBSITE",
+    "tags": ["énergie"]
   },
   {
     "title": "[NEXT] Web série doc",
     "url": "https://youtu.be/ImGLPH3eIdE",
-    "type": "SERIES"
+    "type": "SERIES",
+    "tags": ["art", "collapsologie"]
   },
   {
     "title": "Climate Hoax",
     "url": "./references/img/climate_hoax.jpg",
     "coverUrl": "./references/img/climate_hoax.jpg",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art", "climat"]
   },
   {
     "title": "Alone population",
     "url": "./references/img/alone_population.jpg",
     "coverUrl": "./references/img/alone_population.jpg",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art"]
   },
   {
     "title": "Archéologues du futur",
     "url": "./references/img/future_archeologue.jpg",
     "coverUrl": "./references/img/future_archeologue.jpg",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art"]
   },
   {
     "title": "Sixtine Apocalypse - Riber",
     "url": "./references/img/sixtine_apocalypse_riber.jpg",
     "coverUrl": "./references/img/sixtine_apocalypse_riber.jpg",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art"]
   },
   {
     "title": "Sommar, Sommar - Riber",
     "url": "./references/img/sommar_sommar_riber.jpg",
     "coverUrl": "./references/img/sommar_sommar_riber.jpg",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art", "climat"]
   },
   {
     "title": "Titanic mondial - Riber",
     "url": "./references/img/titanic_mondial_riber.jpg",
     "coverUrl": "./references/img/titanic_mondial_riber.jpg",
-    "type": "PICTURE"
+    "type": "PICTURE",
+    "tags": ["art"]
   },
   {
     "title": "Action, réaction",
     "url": "https://www.facebook.com/putzgrilah/videos/942847322489996/UzpfSTY4NjcxODQ3Njo3MDAwODE1OTM2NjcyNTk/",
-    "type": "VIDEO"
+    "coverUrl": "https://scontent-cdg2-1.xx.fbcdn.net/v/t15.5256-10/12594088_454716111398304_829812909_n.jpg?_nc_cat=108&oh=45a5cd7e75901f145d308c9a8d0b5cee&oe=5C4F1B19",
+    "type": "VIDEO",
+    "tags": ["art"]
   },
   {
     "title": "2058",
     "url": "https://youtu.be/l19L_8xvyDo",
-    "type": "SERIES"
+    "type": "SERIES",
+    "tags": ["collapsologie", "art"]
   }
 ]

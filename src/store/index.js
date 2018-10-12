@@ -3,11 +3,13 @@ import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 
 import typeReducer from './types';
 import referenceReducer from './references';
+import tagReducer from './tags';
 
 const rootReducer = combineReducers({
   // ...reducers,
   types: typeReducer,
   references: referenceReducer,
+  tags: tagReducer,
 });
 
 const enhancers = [];

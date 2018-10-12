@@ -24,3 +24,15 @@ img.Cover {
 .AddComponent img {
   height: 2em;
 }
+
+.AppLayout__tagSelect {
+  width: 30vw;
+  max-height: 32px;
+}
+
+.ant-menu-item .AppLayout__tagSelect .anticon {
+  min-width: inherit;
+  margin-right: inherit;
+  font-size: inherit;
+  transition: inherit;
+}

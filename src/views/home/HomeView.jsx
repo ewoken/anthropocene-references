@@ -139,9 +139,11 @@ export default connect((state, props) => {
   const query = queryString.parse(props.location.search);
   const currentPage = query.page ? Number(query.page) : 1;
   const filteredType = query.type || 'ALL';
+  const tags = query.tags ? [].concat(query.tags) : [];
   const { total, references, pageSize } = filteredReferencesSelector(
     {
       type: filteredType,
+      tags,
       page: currentPage,
     },
     state,
@@ -153,7 +155,7 @@ export default connect((state, props) => {
     pageSize,
     goToPage: page => {
       window.scroll(0, 0); // TODO
-      props.history.push(`/?page=${page}`);
+      props.history.push(`/?${queryString.stringify({ ...query, page })}`);
     },
   };
 })(HomeView);

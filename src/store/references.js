@@ -1,13 +1,11 @@
-import { sortBy } from 'ramda';
-
 import references from '../references';
 
-const initialReferences = sortBy(r => r.title, references).map(
-  (reference, index) => ({
+const initialReferences = references
+  .map((reference, index) => ({
     id: index,
     ...reference,
-  }),
-);
+  }))
+  .reverse();
 
 function referenceReducer(state = initialReferences) {
   return state;
