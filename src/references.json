@@ -320,13 +320,6 @@
     "tags": ["art"]
   },
   {
-    "title": "Western Flag (Spindletop, Texas) - John Gerrard",
-    "url": "https://www.instagram.com/p/BoG_r2JCuUH/?utm_source=ig_share_sheet&igshid=1qacpw425jyym",
-    "coverUrl": "https://scontent-cdg2-1.cdninstagram.com/vp/53a59aba55fdcccdbfd2de8f72c23b65/5BC015B7/t51.2885-15/e15/41726434_845189042344172_1336598292512698990_n.jpg",
-    "type": "PICTURE",
-    "tags": ["art", "pétrole"]
-  },
-  {
     "title": "Blog de Mathieu Auzanneau",
     "url": "http://petrole.blog.lemonde.fr/",
     "coverUrl": "http://petrole.blog.lemonde.fr/files/2017/01/tellerson-rex.jpg",
@@ -385,7 +378,7 @@
     "url": "https://www.electricitymap.org",
     "coverUrl": "./references/img/electricityMap.jpg",
     "type": "WEBSITE",
-    "tags": ["énergie"]
+    "tags": ["énergie", "électricité"]
   },
   {
     "title": "[NEXT] Web série doc",
@@ -553,7 +546,7 @@
     "url": "https://fr.wikipedia.org/wiki/Locomotive_%C3%A0_vapeur",
     "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SNCF_Class_242_A1.jpg/640px-SNCF_Class_242_A1.jpg",
     "type": "PICTURE",
-    "tags": ["charbon", "technique", "Histoire"]
+    "tags": ["charbon", "transport"]
   },
   {
     "title": "Excavation de charbon en Allemagne",
@@ -619,7 +612,7 @@
     "title": "L'hydroélectricité",
     "url": "https://youtu.be/71EopUDDJ04",
     "type": "VIDEO",
-    "tags": ["hydroélectricité"]
+    "tags": ["hydroélectricité", "électricité"]
   },
   {
     "title": "Moulin à eau au XVème siècle",
@@ -641,5 +634,45 @@
     "coverUrl": "./references/img/anthropocene.png",
     "type": "PICTURE",
     "tags": ["climat", "environnement"]
+  },
+  {
+    "title": "Le Clermont : bateau à vapeur - 1807",
+    "url": "https://fr.wikipedia.org/wiki/Bateau_%C3%A0_vapeur",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Clermont_illustration_-_Robert_Fulton_-_Project_Gutenberg_eText_15161.jpg",
+    "type":"PICTURE",
+    "tags": ["charbon", "transport"]
+  },
+  {
+    "title": "La machine à vapeur",
+    "url": "https://youtu.be/P9sq9ADbgts",
+    "type": "VIDEO",
+    "tags": ["charbon", "convertisseur"]
+  },
+  {
+    "title": "Le fardier Cugnot",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Le_deuxi%C3%A8me_fardier_de_Cugnot_%281770%29%2C_ici_au_Mus%C3%A9e_central_de_la_M%C3%A9canique_fran%C3%A7aise_%28en_1901%29.jpg",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Le_deuxi%C3%A8me_fardier_de_Cugnot_%281770%29%2C_ici_au_Mus%C3%A9e_central_de_la_M%C3%A9canique_fran%C3%A7aise_%28en_1901%29.jpg/320px-Le_deuxi%C3%A8me_fardier_de_Cugnot_%281770%29%2C_ici_au_Mus%C3%A9e_central_de_la_M%C3%A9canique_fran%C3%A7aise_%28en_1901%29.jpg",
+    "type": "PICTURE",
+    "tags": ["charbon", "transport"]
+  },
+  {
+    "title": "Centrale électrique thermique",
+    "url": "https://youtu.be/rvImmeBsIT0",
+    "type": "VIDEO",
+    "tags": ["charbon", "pétrole", "gaz"]
+  },
+  {
+    "title": "Les formes d'énergie",
+    "url": "./references/img/energies.png",
+    "coverUrl": "./references/img/energies.png",
+    "type": "PICTURE",
+    "tags": ["énergie"]
+  },
+  {
+    "title": "Le charbon - Jancovici",
+    "url": "https://jancovici.com/category/transition-energetique/charbon/",
+    "coverUrl": "https://jancovici.com/wp-content/uploads/2016/04/danger_charbon_graph2.jpg",
+    "type": "ARTICLE",
+    "tags": ["charbon"]
   }
 ]
