@@ -304,7 +304,7 @@
     "title": "Visite de la ferme du Bec Hellouin",
     "url": "https://youtu.be/bhaYY7ByGFc",
     "type": "VIDEO",
-    "tags": ["agriculture"]
+    "tags": ["alimentation"]
   },
   {
     "title": "Extrapolation of oil past production to forecast future production in barrels - Jean Laherrère",
@@ -466,7 +466,7 @@
     "url": "https://www.l214.com/",
     "coverUrl": "https://visuels.l214.com/sites/www.l214.com/2012/logo-L214.png",
     "type": "ASSOCIATION",
-    "tags": ["agriculture"]
+    "tags": ["alimentation"]
   },
   {
     "title": "168 années de changement climatique",
@@ -639,7 +639,7 @@
     "title": "Le Clermont : bateau à vapeur - 1807",
     "url": "https://fr.wikipedia.org/wiki/Bateau_%C3%A0_vapeur",
     "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Clermont_illustration_-_Robert_Fulton_-_Project_Gutenberg_eText_15161.jpg",
-    "type":"PICTURE",
+    "type": "PICTURE",
     "tags": ["charbon", "transport"]
   },
   {
@@ -650,8 +650,8 @@
   },
   {
     "title": "Le fardier Cugnot",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Le_deuxi%C3%A8me_fardier_de_Cugnot_%281770%29%2C_ici_au_Mus%C3%A9e_central_de_la_M%C3%A9canique_fran%C3%A7aise_%28en_1901%29.jpg",
-    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Le_deuxi%C3%A8me_fardier_de_Cugnot_%281770%29%2C_ici_au_Mus%C3%A9e_central_de_la_M%C3%A9canique_fran%C3%A7aise_%28en_1901%29.jpg/320px-Le_deuxi%C3%A8me_fardier_de_Cugnot_%281770%29%2C_ici_au_Mus%C3%A9e_central_de_la_M%C3%A9canique_fran%C3%A7aise_%28en_1901%29.jpg",
+    "url": "https://fr.wikipedia.org/wiki/Nicolas_Joseph_Cugnot#Le_%C2%AB_chariot_%C3%A0_feu_%C2%BB_ou_%C2%AB_fardier_de_Cugnot_%C2%BB",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Le_deuxi%C3%A8me_fardier_de_Cugnot_%281770%29%2C_ici_au_Mus%C3%A9e_central_de_la_M%C3%A9canique_fran%C3%A7aise_%28en_1901%29.jpg",
     "type": "PICTURE",
     "tags": ["charbon", "transport"]
   },
@@ -674,5 +674,104 @@
     "coverUrl": "https://jancovici.com/wp-content/uploads/2016/04/danger_charbon_graph2.jpg",
     "type": "ARTICLE",
     "tags": ["charbon"]
+  },
+  {
+    "title": "Plate-forme pétrolière - C'est pas sorcier",
+    "url": "https://youtu.be/v5DDH5_bj4g",
+    "type": "VIDEO",
+    "tags": ["pétrole", "gaz"]
+  },
+  {
+    "title": "Everybody knows - Leonard Cohen",
+    "url": "https://youtu.be/Lin-a2lTelg",
+    "type": "MUSIC",
+    "tags": ["art"]
+  },
+  {
+    "title": "Tomorrow - Fredrika Stahl",
+    "url": "https://youtu.be/nWxFe1uNLNw",
+    "type": "MUSIC",
+    "tags": ["art"]
+  },
+  {
+    "title": "L'hymne de nos campagnes - Tryo",
+    "url": "https://youtu.be/srb0lAK5wbA",
+    "type": "MUSIC",
+    "tags": ["art"]
+  },
+  {
+    "title": "Pocahantas - L'air du vent",
+    "url": "https://youtu.be/OAhCfI5hLjU",
+    "type": "MUSIC",
+    "tags": ["art"]
+  },
+  {
+    "title": "2 degrés avant la fin du monde - Data Gueule",
+    "url": "https://youtu.be/Hs-M1vgI_4A",
+    "type": "VIDEO",
+    "tags": ["énergie", "climat"]
+  },
+  {
+    "title": "Charbon: le fossile qui a de beaux restes - Data Gueule",
+    "url": "https://youtu.be/kk0TIhy2D3g",
+    "type": "VIDEO",
+    "tags": ["charbon"]
+  },
+  {
+    "title": "Pipelines, notre monde sous perfusion - Data Gueule",
+    "url": "https://youtu.be/mNlA2mjmWAs",
+    "type": "VIDEO",
+    "tags": ["pétrole", "gaz"]
+  },
+  {
+    "title": "Biodiversité, l'essentielle différence - Data Gueule",
+    "url": "https://youtu.be/1F6JGk51_l0",
+    "type": "VIDEO",
+    "tags": ["biologie"]
+  },
+  {
+    "title": "Data Gueule",
+    "url": "https://www.youtube.com/user/datagueule/featured",
+    "coverUrl": "https://yt3.ggpht.com/7DndT0vkFOn7VDczyMnnnUqH76dk8Y6vYV7NzVKmc9GFQN5U20576ElAjBFgEpVS_jJxk9SvMA=w2560-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+    "type": "CHANNEL"
+  },
+  {
+    "title": "Quand la surpêche, les poissons coulent - Data Gueule",
+    "url": "https://youtu.be/_-bSD3AHgsQ",
+    "type": "VIDEO",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "Les métaux rares - La Barbe",
+    "url": "https://youtu.be/jMrabMyV_as",
+    "type": "VIDEO",
+    "tags": ["métaux"]
+  },
+  {
+    "title": "Containers: la vie en boîte - Data Gueule",
+    "url": "https://youtu.be/UBVwequu8xM",
+    "type": "VIDEO",
+    "tags": ["transport"]
+  },
+  {
+    "title": "Mine de cuivre en Suède",
+    "url": "./references/img/mine_cuivre_suede.jpg",
+    "coverUrl": "./references/img/mine_cuivre_suede.jpg",
+    "type": "PICTURE",
+    "tags": ["métaux"]
+  },
+  {
+    "title": "Types de plate-forme pétrolière",
+    "url": "./references/img/types_plateforme_petroliere.png",
+    "coverUrl": "./references/img/types_plateforme_petroliere.png",
+    "type": "PICTURE",
+    "tags": ["pétrole", "gaz"]
+  },
+  {
+    "title": "Deepwater Horizon",
+    "url": "https://fr.wikipedia.org/wiki/Deepwater_Horizon",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Deepwater_Horizon_offshore_drilling_unit_on_fire_2010.jpg/1024px-Deepwater_Horizon_offshore_drilling_unit_on_fire_2010.jpg",
+    "type": "PICTURE",
+    "tags": ["pétrole", "gaz"]
   }
 ]
