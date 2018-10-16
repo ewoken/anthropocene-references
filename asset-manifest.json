@@ -1,7 +1,7 @@
 {
   "main.css": "/anthropocene-references/static/css/main.ddea8a5f.chunk.css",
-  "main.js": "/anthropocene-references/static/js/main.8af0637e.chunk.js",
-  "main.js.map": "/anthropocene-references/static/js/main.8af0637e.chunk.js.map",
+  "main.js": "/anthropocene-references/static/js/main.6c1a1b95.chunk.js",
+  "main.js.map": "/anthropocene-references/static/js/main.6c1a1b95.chunk.js.map",
   "static/css/1.b3a4b0be.chunk.css": "/anthropocene-references/static/css/1.b3a4b0be.chunk.css",
   "static/js/1.242c7455.chunk.js": "/anthropocene-references/static/js/1.242c7455.chunk.js",
   "static/js/1.242c7455.chunk.js.map": "/anthropocene-references/static/js/1.242c7455.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.b3a4b0be.chunk.css.map": "/anthropocene-references/static/css/1.b3a4b0be.chunk.css.map",
   "static/css/main.ddea8a5f.chunk.css.map": "/anthropocene-references/static/css/main.ddea8a5f.chunk.css.map",
   "index.html": "/anthropocene-references/index.html",
-  "precache-manifest.bdecc5d6b76b2f993b17486fa54ba72d.js": "/anthropocene-references/precache-manifest.bdecc5d6b76b2f993b17486fa54ba72d.js",
+  "precache-manifest.b1737b285135df260e4ff9ca20fbf9ce.js": "/anthropocene-references/precache-manifest.b1737b285135df260e4ff9ca20fbf9ce.js",
   "service-worker.js": "/anthropocene-references/service-worker.js"
 }

@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/anthropocene-references/static/js/runtime~main.ce2bcc70.js"
   },
   {
-    "revision": "8af0637e40d1874532fe",
-    "url": "/anthropocene-references/static/js/main.8af0637e.chunk.js"
+    "revision": "6c1a1b95e223b4dc243c",
+    "url": "/anthropocene-references/static/js/main.6c1a1b95.chunk.js"
   },
   {
     "revision": "242c7455d48c3a6b4270",
     "url": "/anthropocene-references/static/js/1.242c7455.chunk.js"
   },
   {
-    "revision": "8af0637e40d1874532fe",
+    "revision": "6c1a1b95e223b4dc243c",
     "url": "/anthropocene-references/static/css/main.ddea8a5f.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/anthropocene-references/static/css/1.b3a4b0be.chunk.css"
   },
   {
-    "revision": "9612fdee1256db205d78be78155eefaf",
+    "revision": "3822c9f332eaad1cb70f68741a36ed37",
     "url": "/anthropocene-references/index.html"
   }
 ];
