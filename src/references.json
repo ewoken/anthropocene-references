@@ -180,7 +180,7 @@
     "title": "Nauru: le destin tragique de l'île la plus riche du monde",
     "url": "https://youtu.be/HXOoWfTGZmA",
     "type": "VIDEO",
-    "tags": ["Histoire"]
+    "tags": ["Histoire", "collapsologie"]
   },
   {
     "title": "Soleil Vert",
@@ -773,5 +773,81 @@
     "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Deepwater_Horizon_offshore_drilling_unit_on_fire_2010.jpg/1024px-Deepwater_Horizon_offshore_drilling_unit_on_fire_2010.jpg",
     "type": "PICTURE",
     "tags": ["pétrole", "gaz"]
+  },
+  {
+    "title": "Philippe Bihouix : Le mensonge de la coissance verte - Thinkerview",
+    "url": "https://youtu.be/Bx9S8gvNKkA",
+    "type": "VIDEO",
+    "tags": ["métaux"]
+  },
+  {
+    "title": "Effondrement de civilisation ? Pablo Servigne - Thinkerview",
+    "url": "https://youtu.be/5xziAeW7l6w",
+    "type": "VIDEO",
+    "tags": ["collapsologie"]
+  },
+  {
+    "title": "L214 : Exploitation animale & Alimentation - Souffrance du 21ème siècle ? - Thinkerview",
+    "url": "https://youtu.be/6_RjvC7fQck",
+    "type": "VIDEO",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "Périco Légasse : Malbouffe et Mondialisation ? - Thinkerview",
+    "url": "https://youtu.be/5SkHrhxaFxE",
+    "type": "VIDEO",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "Vincent Mignerot : Anticiper l'effondrement ?",
+    "url": "https://youtu.be/CwXudpMdbuo",
+    "type": "VIDEO",
+    "tags": ["collapsologie"]
+  },
+  {
+    "title": "How does a steam turbine work ?",
+    "url": "https://youtu.be/SPg7hOxFItI",
+    "type": "VIDEO",
+    "tags": ["électricité", "convertisseur"]
+  },
+  {
+    "title": "The World to Come - Frederika Stahl",
+    "url": "https://youtu.be/4AGz_b5HsyY",
+    "type": "MUSIC",
+    "tags": ["art"]
+  },
+  {
+    "title": "Turbine hydraulique Francis",
+    "url": "./references/img/turbine_francis.jpg",
+    "coverUrl": "./references/img/turbine_francis.jpg",
+    "type": "PICTURE",
+    "tags": ["hydroélectricité", "convertisseur"]
+  },
+  {
+    "title": "Turbine hydraulique Pelton",
+    "url": "./references/img/turbine_pelton.jpg",
+    "coverUrl": "./references/img/turbine_pelton.jpg",
+    "type": "PICTURE",
+    "tags": ["hydroélectricité", "convertisseur"]
+  },
+  {
+    "title": "Turbine à vapeur",
+    "url": "./references/img/turbine_vapeur.jpg",
+    "coverUrl": "./references/img/turbine_vapeur.jpg",
+    "type": "PICTURE",
+    "tags": ["électricité", "convertisseur"]
+  },
+  {
+    "title": "Vidange du barrage de Sarrans",
+    "url": "https://youtu.be/JflFg5un5zg",
+    "type": "VIDEO",
+    "tags": ["hydroélectricité"]
+  },
+  {
+    "title": "Alternateur démonté",
+    "url": "https://www.edf.fr/groupe-edf/nos-energies/carte-de-nos-implantations-industrielles-en-france/centrale-nucleaire-de-gravelines/actualites/un-nouveau-stator-pour-l-unite-de-production-ndeg6",
+    "coverUrl": "https://www.edf.fr/sites/default/files/contrib/groupe-edf/producteur-industriel/carte-des-implantations/centrale-gravelines/actualites/Central%20et%20b%C3%A2t/img_1990.jpg",
+    "type": "PICTURE",
+    "tags": ["électricité", "convertisseur"]
   }
 ]
