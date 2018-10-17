@@ -47,7 +47,8 @@
     "title": "Les Limites à la croissance (dans un monde fini) : Le rapport Meadows, 30 ans après - Meadows et al.",
     "url": "https://www.ruedelechiquier.net/l-ecopoche/110-les-limites-a-la-croissance.html",
     "coverUrl": "https://www.ruedelechiquier.net/173-large_default/les-limites-a-la-croissance.jpg",
-    "type": "BOOK"
+    "type": "BOOK",
+    "tags": ["collapsologie"]
   },
   {
     "title": "Site de Jean-Marc Jancovici",
@@ -494,7 +495,7 @@
     "url": "https://fr.wikipedia.org/wiki/Barrage_des_Trois-Gorges",
     "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/ThreeGorgesDam-China2009.jpg/640px-ThreeGorgesDam-China2009.jpg",
     "type": "PICTURE",
-    "tags": ["hydroélectricité"]
+    "tags": ["hydrolique", "électricité"]
   },
   {
     "title": "Spindletop",
@@ -612,21 +613,14 @@
     "title": "L'hydroélectricité",
     "url": "https://youtu.be/71EopUDDJ04",
     "type": "VIDEO",
-    "tags": ["hydroélectricité", "électricité"]
+    "tags": ["hydrolique", "électricité"]
   },
   {
     "title": "Moulin à eau au XVème siècle",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Landscape_with_a_watermill_-_Le_Tresor_des_Histoires_%2815th_C%29%2C_f.345v_-_BL_Cotton_MS_Augustus_V.jpg/1024px-Landscape_with_a_watermill_-_Le_Tresor_des_Histoires_%2815th_C%29%2C_f.345v_-_BL_Cotton_MS_Augustus_V.jpg",
     "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Landscape_with_a_watermill_-_Le_Tresor_des_Histoires_%2815th_C%29%2C_f.345v_-_BL_Cotton_MS_Augustus_V.jpg/640px-Landscape_with_a_watermill_-_Le_Tresor_des_Histoires_%2815th_C%29%2C_f.345v_-_BL_Cotton_MS_Augustus_V.jpg",
     "type": "PICTURE",
-    "tags": ["hydroélectricité"]
-  },
-  {
-    "title": "DirtyBiology",
-    "url": "https://www.youtube.com/user/dirtybiology/featured",
-    "coverUrl": "https://yt3.ggpht.com/a-/AN66SAxfYD57BxRd6_Ca00xOZmRTgSC4IAdYZl55vA=s288-mo-c-c0xffffffff-rj-k-no",
-    "type": "CHANNEL",
-    "tags": ["biologie"]
+    "tags": ["hydrolique"]
   },
   {
     "title": "Indicateurs de l'anthropocène",
@@ -821,14 +815,14 @@
     "url": "./references/img/turbine_francis.jpg",
     "coverUrl": "./references/img/turbine_francis.jpg",
     "type": "PICTURE",
-    "tags": ["hydroélectricité", "convertisseur"]
+    "tags": ["hydrolique", "convertisseur", "électricité"]
   },
   {
     "title": "Turbine hydraulique Pelton",
     "url": "./references/img/turbine_pelton.jpg",
     "coverUrl": "./references/img/turbine_pelton.jpg",
     "type": "PICTURE",
-    "tags": ["hydroélectricité", "convertisseur"]
+    "tags": ["hydrolique", "convertisseur", "électricité"]
   },
   {
     "title": "Turbine à vapeur",
@@ -841,7 +835,7 @@
     "title": "Vidange du barrage de Sarrans",
     "url": "https://youtu.be/JflFg5un5zg",
     "type": "VIDEO",
-    "tags": ["hydroélectricité"]
+    "tags": ["hydrolique", "électricité"]
   },
   {
     "title": "Alternateur démonté",
@@ -855,5 +849,64 @@
     "url": "https://youtu.be/YZa4sdIwV04",
     "type": "VIDEO",
     "tags": ["biologie", "Histoire"]
+  },
+  {
+    "title": "Home",
+    "url": "https://youtu.be/NNGDj9IeAuI",
+    "type": "MOVIE"
+  },
+  {
+    "title": "Saison brune",
+    "url": "https://www.editions-delcourt.fr/special/saisonbrune/",
+    "coverUrl": "https://www.editions-delcourt.fr/special/saisonbrune/head.jpg",
+    "type": "BOOK",
+    "tags": ["climat"]
+  },
+  {
+    "title": "Éoliennes",
+    "url": "./references/img/eolienne.jpg",
+    "coverUrl": "./references/img/eolienne.jpg",
+    "type": "PICTURE",
+    "tags": ["éolien"]
+  },
+  {
+    "title": "Moulin à eau",
+    "url": "./references/img/moulin_eau.jpg",
+    "coverUrl": "./references/img/moulin_eau.jpg",
+    "type": "PICTURE",
+    "tags": ["hydrolique"]
+  },
+  {
+    "title": "Moulin à vent",
+    "url": "./references/img/moulin_vent.jpg",
+    "coverUrl": "./references/img/moulin_vent.jpg",
+    "type": "PICTURE",
+    "tags": ["éolien"]
+  },
+  {
+    "title": "Panneau solaire photovoltaïque",
+    "url": "./references/img/photovoltaique.jpg",
+    "coverUrl": "./references/img/photovoltaique.jpg",
+    "type": "PICTURE",
+    "tags": ["solaire", "électricité"]
+  },
+  {
+    "title": "Panneau solaire thermique",
+    "url": "./references/img/capteur_solaire_thermique.jpg",
+    "coverUrl": "./references/img/capteur_solaire_thermique.jpg",
+    "type": "PICTURE",
+    "tags": ["solaire"]
+  },
+  {
+    "title": "L'éolien - Le Réveilleur",
+    "url": "https://youtu.be/wXqIZxV6VHE",
+    "type": "VIDEO",
+    "tags": ["éolien"]
+  },
+  {
+    "title": "Le Photovoltaïque - Le Réveilleur",
+    "url": "https://youtu.be/hESxYif5pdI",
+    "type": "VIDEO",
+    "tags": ["solaire"]
   }
 ]

@@ -23,7 +23,7 @@ function HomeView() {
         {', '}
         <Link to="/references?type=BOOK">livres</Link>
         {` mais aussi `}
-        <Link to="/references?tags=art">œuvres d'art</Link>
+        <Link to="/references?tags=art">créations artistiques</Link>
         {', '}
         ont pour objectif de faire réfléchir sur la complexité de notre système
         de production et de notre mode de vie. Ils nous interrogent sur
@@ -45,7 +45,7 @@ function HomeView() {
         <Link to="/references?tags=hydroélectricité">hydroélectricité</Link>
         {', '}
         {`éolien et solaire) qui ont permis aux
-        petits primates que nous sommes de dépasser la puissance de son modeste
+        petits primates que nous sommes de dépasser la puissance de notre modeste
         organisme. C’est la raison pour laquelle, ce site explore les
         différentes techniques d’extraction et de transformation (ex: `}
         <Link to="/references?tags=électricité">l'électricité</Link>
