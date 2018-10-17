@@ -9,6 +9,12 @@ body {
 
 .HomeView {
   padding: 10px;
+  max-width: 60%;
+  text-align: justify
+}
+
+.ReferenceView {
+  padding: 10px;
 }
 
 .Cover {

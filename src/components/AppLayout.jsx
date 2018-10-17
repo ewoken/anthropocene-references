@@ -3,15 +3,15 @@ import PropTypes from 'prop-types';
 
 import { Route, Switch, Redirect, withRouter, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { Layout, Menu, Popover, Button, Select } from 'antd';
+import { Layout, Menu, Select } from 'antd';
 import queryString from 'query-string';
 
 import { ALL, typesSelector } from '../store/types';
 import { tagsSelector } from '../store/tags';
-import HomeView from '../views/home/HomeView';
+import ReferencesView from '../views/references';
+import HomeView from '../views/home';
 
 import GitHubLink from './GitHubLink';
-import AddComponent from './AddComponent';
 
 function AppLayout(props) {
   // TODO
@@ -44,7 +44,7 @@ function AppLayout(props) {
                 value={queryTags}
                 onChange={newTags => {
                   props.history.push(
-                    `/?${queryString.stringify({
+                    `/references?${queryString.stringify({
                       tags: newTags,
                       type: query.type,
                     })}`,
@@ -63,7 +63,10 @@ function AppLayout(props) {
                 value={query.type || ALL}
                 onChange={type =>
                   props.history.push(
-                    `/?${queryString.stringify({ tags: queryTags, type })}`,
+                    `/references?${queryString.stringify({
+                      tags: queryTags,
+                      type,
+                    })}`,
                   )
                 }
               >
@@ -72,11 +75,6 @@ function AppLayout(props) {
                 ))}
               </Select>
             </Menu.Item>
-            <Menu.Item>
-              <Popover content={<AddComponent />} trigger="click">
-                <Button type="primary">Ajouter une référence</Button>
-              </Popover>
-            </Menu.Item>
             <Menu.Item key="github">
               <GitHubLink />
             </Menu.Item>
@@ -84,8 +82,9 @@ function AppLayout(props) {
         </Layout.Header>
         <Layout.Content style={{ padding: '0 50px', marginTop: 64 }}>
           <Switch>
-            <Route path="/" exact component={HomeView} />
-            <Route component={() => <Redirect to={{ pathname: '/' }} />} />
+            <Route path="/home" exact component={HomeView} />
+            <Route path="/references" exact component={ReferencesView} />
+            <Route component={() => <Redirect to={{ pathname: '/home' }} />} />
           </Switch>
         </Layout.Content>
         {/* <Layout.Footer>Footer</Layout.Footer> */}

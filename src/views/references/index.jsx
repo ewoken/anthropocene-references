@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { List, Card, Icon, Tooltip, Pagination } from 'antd';
 import queryString from 'query-string';
 
+import { ALL } from '../../store/types';
 import filteredReferencesSelector from '../../store/filteredReferences';
 
 function TypeIcon({ type }) {
@@ -95,10 +96,10 @@ ReferenceCard.propTypes = {
   }).isRequired,
 };
 
-function HomeView(props) {
+function ReferenceView(props) {
   const { references, total, currentPage, pageSize, goToPage } = props;
   return (
-    <div className="HomeView">
+    <div className="ReferenceView">
       <List
         header={<div>{`Nombre de références: ${total}`}</div>}
         grid={{ gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 4, xxl: 3 }}
@@ -123,7 +124,7 @@ function HomeView(props) {
   );
 }
 
-HomeView.propTypes = {
+ReferenceView.propTypes = {
   currentPage: PropTypes.number.isRequired,
   total: PropTypes.number.isRequired,
   pageSize: PropTypes.number.isRequired,
@@ -138,7 +139,7 @@ HomeView.propTypes = {
 export default connect((state, props) => {
   const query = queryString.parse(props.location.search);
   const currentPage = query.page ? Number(query.page) : 1;
-  const filteredType = query.type || 'ALL';
+  const filteredType = query.type || ALL;
   const tags = query.tags ? [].concat(query.tags) : [];
   const { total, references, pageSize } = filteredReferencesSelector(
     {
@@ -155,7 +156,9 @@ export default connect((state, props) => {
     pageSize,
     goToPage: page => {
       window.scroll(0, 0); // TODO
-      props.history.push(`/?${queryString.stringify({ ...query, page })}`);
+      props.history.push(
+        `/references?${queryString.stringify({ ...query, page })}`,
+      );
     },
   };
-})(HomeView);
+})(ReferenceView);

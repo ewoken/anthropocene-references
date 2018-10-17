@@ -659,7 +659,7 @@
     "title": "Centrale électrique thermique",
     "url": "https://youtu.be/rvImmeBsIT0",
     "type": "VIDEO",
-    "tags": ["charbon", "pétrole", "gaz"]
+    "tags": ["charbon", "pétrole", "gaz", "électricité"]
   },
   {
     "title": "Les formes d'énergie",
@@ -849,5 +849,11 @@
     "coverUrl": "https://www.edf.fr/sites/default/files/contrib/groupe-edf/producteur-industriel/carte-des-implantations/centrale-gravelines/actualites/Central%20et%20b%C3%A2t/img_1990.jpg",
     "type": "PICTURE",
     "tags": ["électricité", "convertisseur"]
+  },
+  {
+    "title": "Bananas in heaven",
+    "url": "https://youtu.be/YZa4sdIwV04",
+    "type": "VIDEO",
+    "tags": ["biologie", "Histoire"]
   }
 ]
