@@ -1,8 +1,16 @@
-import { uniq } from 'ramda';
+import { uniq, sortBy } from 'ramda';
 import data from '../references';
 
-export const NO_TAG = 'ø';
-const tags = uniq([].concat(...data.map(d => d.tags || [NO_TAG]))).sort();
+function removeDiacritics(tag) {
+  return tag.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+export const NO_TAG = '-';
+const tags = sortBy(
+  t => removeDiacritics(t).toLowerCase(),
+  uniq([].concat(...data.map(d => d.tags || []))),
+);
+tags.push(NO_TAG);
 
 function tagReducer(state = tags) {
   return state;

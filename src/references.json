@@ -666,7 +666,7 @@
     "title": "Le charbon - Jancovici",
     "url": "https://jancovici.com/category/transition-energetique/charbon/",
     "coverUrl": "https://jancovici.com/wp-content/uploads/2016/04/danger_charbon_graph2.jpg",
-    "type": "ARTICLE",
+    "type": "WEBSITE",
     "tags": ["charbon"]
   },
   {
@@ -745,7 +745,7 @@
     "title": "Containers: la vie en boîte - Data Gueule",
     "url": "https://youtu.be/UBVwequu8xM",
     "type": "VIDEO",
-    "tags": ["transport"]
+    "tags": ["transport", "pétrole"]
   },
   {
     "title": "Mine de cuivre en Suède",
@@ -867,35 +867,35 @@
     "url": "./references/img/eolienne.jpg",
     "coverUrl": "./references/img/eolienne.jpg",
     "type": "PICTURE",
-    "tags": ["éolien"]
+    "tags": ["éolien", "convertisseur"]
   },
   {
     "title": "Moulin à eau",
     "url": "./references/img/moulin_eau.jpg",
     "coverUrl": "./references/img/moulin_eau.jpg",
     "type": "PICTURE",
-    "tags": ["hydrolique"]
+    "tags": ["hydrolique", "convertisseur"]
   },
   {
     "title": "Moulin à vent",
     "url": "./references/img/moulin_vent.jpg",
     "coverUrl": "./references/img/moulin_vent.jpg",
     "type": "PICTURE",
-    "tags": ["éolien"]
+    "tags": ["éolien", "convertisseur"]
   },
   {
     "title": "Panneau solaire photovoltaïque",
     "url": "./references/img/photovoltaique.jpg",
     "coverUrl": "./references/img/photovoltaique.jpg",
     "type": "PICTURE",
-    "tags": ["solaire", "électricité"]
+    "tags": ["solaire", "électricité", "convertisseur"]
   },
   {
     "title": "Panneau solaire thermique",
     "url": "./references/img/capteur_solaire_thermique.jpg",
     "coverUrl": "./references/img/capteur_solaire_thermique.jpg",
     "type": "PICTURE",
-    "tags": ["solaire"]
+    "tags": ["solaire", "convertisseur"]
   },
   {
     "title": "L'éolien - Le Réveilleur",
@@ -908,5 +908,147 @@
     "url": "https://youtu.be/hESxYif5pdI",
     "type": "VIDEO",
     "tags": ["solaire"]
+  },
+  {
+    "title": "Fonctionnement d'une centrale nucléaire",
+    "url": "https://youtu.be/I09DhTubNqE",
+    "type": "VIDEO",
+    "tags": ["nucléaire"]
+  },
+  {
+    "title": "Le déroulement de l'accident de Fukushima Daiichi",
+    "url": "https://youtu.be/gF19Ukb4S-I",
+    "type": "VIDEO",
+    "tags": ["nucléaire"]
+  },
+  {
+    "title": "Des militants Greenpeace tirent des feux d'artifices dans une centrale nucléaire",
+    "url": "https://youtu.be/dWmqmxUCEew",
+    "type": "VIDEO",
+    "tags": ["nucléaire"]
+  },
+  {
+    "title": "CNPE de Cattenom",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kernkraftwerk_Cattenom_Pano.jpg/1280px-Kernkraftwerk_Cattenom_Pano.jpg",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kernkraftwerk_Cattenom_Pano.jpg/320px-Kernkraftwerk_Cattenom_Pano.jpg",
+    "type": "PICTURE",
+    "tags": ["nucléaire"]
+  },
+  {
+    "title": "Centrale solaire PS10",
+    "url": "https://fr.wikipedia.org/wiki/Centrale_solaire_PS10",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/PS20andPS10.jpg/640px-PS20andPS10.jpg",
+    "type": "PICTURE",
+    "tags": ["solaire"]
+  },
+  {
+    "title": "Banques de compensation : la Nature à crédit - Data Gueule",
+    "url": "https://youtu.be/kZvF-5DsxcE",
+    "type": "VIDEO",
+    "tags": ["environnement"]
+  },
+  {
+    "title": "L'Aluminium, notre Précieux - Data Gueule",
+    "url": "https://youtu.be/44dyEzjzJ8Y",
+    "type": "VIDEO",
+    "tags": ["métaux"]
+  },
+  {
+    "title": "Énergies fossiles : mortelles subventions - Data Gueule",
+    "url": "https://youtu.be/aUmJ35kMq1Q",
+    "type": "VIDEO",
+    "tags": ["pétrole", "charbon", "gaz"]
+  },
+  {
+    "title": "Déforestation : le chant des scies règne - Data Gueule",
+    "url": "https://youtu.be/9LC0IyZg2nk",
+    "type": "VIDEO",
+    "tags": ["environnement"]
+  },
+  {
+    "title": "Quand la boucherie, le monde pleure - Data Gueule",
+    "url": "https://youtu.be/KriTQ0aTrtw",
+    "type": "VIDEO",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "30 jours de timelapse sur un porte-conteneurs",
+    "url": "https://youtu.be/AHrCI9eSJGQ",
+    "type": "VIDEO",
+    "tags": ["transport", "art"]
+  },
+  {
+    "title": "Porte-containeur à Hamburg",
+    "url": "./references/img/porte_containeur.jpg",
+    "coverUrl": "./references/img/porte_containeur.jpg",
+    "type": "PICTURE",
+    "tags": ["transport", "pétrole"]
+  },
+  {
+    "title": "Yann Arthus-Bertrand",
+    "url": "http://www.yannarthusbertrand2.org/",
+    "coverUrl": "http://www.yannarthusbertrand2.org/wp-content/uploads/2018/05/heart-of-vho.jpg",
+    "type": "WEBSITE",
+    "tags": ["art"]
+  },
+  {
+    "title": "Échangeur Judge Harry Pregerson à Los Angeles",
+    "url": "https://external-preview.redd.it/XT4TN9-n33x-JmMqj4IpPDV2F_IacUMcuIqZoDNe8a4.jpg?auto=webp&s=5c90e3717723fc0541a32da0b613966ec4dfd408",
+    "coverUrl": "https://external-preview.redd.it/XT4TN9-n33x-JmMqj4IpPDV2F_IacUMcuIqZoDNe8a4.jpg?auto=webp&s=5c90e3717723fc0541a32da0b613966ec4dfd408",
+    "type": "PICTURE",
+    "tags": ["transport"]
+  },
+  {
+    "title": "Centrale thermique à charbon de Janschwalde, Allemagne",
+    "url": "http://www.yannarthusbertrand2.org/wp-content/uploads/2018/06/f001209108c6-1799x1183.jpg",
+    "coverUrl": "http://www.yannarthusbertrand2.org/wp-content/uploads/2018/06/f001209108c6-1799x1183.jpg",
+    "type": "PICTURE",
+    "tags": ["charbon"]
+  },
+  {
+    "title": "Parking de l'usine Volkswagen à Wolfsburg",
+    "url": "http://www.yannarthusbertrand2.org/wp-content/uploads/2018/06/f001208489c5-1799x1183.jpg",
+    "coverUrl": "http://www.yannarthusbertrand2.org/wp-content/uploads/2018/06/f001208489c5-1799x1183.jpg",
+    "type": "PICTURE",
+    "tags": ["transport"]
+  },
+  {
+    "title": "Traffic aérien - Flight Radar 24",
+    "url": "https://www.flightradar24.com/32.84,-33.89/2",
+    "coverUrl": "./references/img/flight_radar.jpg",
+    "type": "WEBSITE",
+    "tags": ["transport"]
+  },
+  {
+    "title": "Les sables bitumineux vus du ciel",
+    "url": "https://youtu.be/j8OdoC6CLnY",
+    "type": "VIDEO",
+    "tags": ["pétrole"]
+  },
+  {
+    "title": "Pétrole - Jancovici",
+    "url": "https://jancovici.com/category/transition-energetique/petrole/",
+    "coverUrl": "https://jancovici.com/wp-content/uploads/2016/04/A-quoi-ressemble-lexploitation-dun-gisement-de-p%C3%A9trole.jpg",
+    "type": "WEBSITE",
+    "tags": ["pétrole"]
+  },
+  {
+    "title": "Airbus A380",
+    "url": "https://commons.wikimedia.org/wiki/File:Airbus_A380_overfly.jpg",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Airbus_A380_overfly.jpg/640px-Airbus_A380_overfly.jpg",
+    "type": "PICTURE",
+    "tags": ["transport", "pétrole"]
+  },
+  {
+    "title": "Comment fonctionne un turboréacteur ?",
+    "url": "https://youtu.be/eeMFoIFwh_M",
+    "type": "VIDEO",
+    "tags": ["pétrole", "convertisseur"]
+  },
+  {
+    "title": "Aéroport de Dubaï",
+    "url": "https://youtu.be/m8n2o3Qx504",
+    "type": "VIDEO",
+    "tags": ["transport"]
   }
 ]
