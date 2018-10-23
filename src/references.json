@@ -603,7 +603,7 @@
     "tags": ["pétrole"]
   },
   {
-    "title": "L'hydroélectricité",
+    "title": "L'hydroélectricité - Le Réveilleur",
     "url": "https://youtu.be/71EopUDDJ04",
     "type": "VIDEO",
     "tags": ["hydrolique", "électricité"]
@@ -860,7 +860,7 @@
     "url": "./references/img/eolienne.jpg",
     "coverUrl": "./references/img/eolienne.jpg",
     "type": "PICTURE",
-    "tags": ["éolien", "convertisseur"]
+    "tags": ["éolien", "convertisseur", "électricité"]
   },
   {
     "title": "Moulin à eau",
@@ -888,19 +888,19 @@
     "url": "./references/img/capteur_solaire_thermique.jpg",
     "coverUrl": "./references/img/capteur_solaire_thermique.jpg",
     "type": "PICTURE",
-    "tags": ["solaire", "convertisseur"]
+    "tags": ["solaire", "convertisseur", "électricité"]
   },
   {
     "title": "L'éolien - Le Réveilleur",
     "url": "https://youtu.be/wXqIZxV6VHE",
     "type": "VIDEO",
-    "tags": ["éolien"]
+    "tags": ["éolien", "électricité"]
   },
   {
     "title": "Le Photovoltaïque - Le Réveilleur",
     "url": "https://youtu.be/hESxYif5pdI",
     "type": "VIDEO",
-    "tags": ["solaire"]
+    "tags": ["solaire", "électricité"]
   },
   {
     "title": "Fonctionnement d'une centrale nucléaire",
@@ -932,7 +932,7 @@
     "url": "https://fr.wikipedia.org/wiki/Centrale_solaire_PS10",
     "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/PS20andPS10.jpg/640px-PS20andPS10.jpg",
     "type": "PICTURE",
-    "tags": ["solaire", "convertisseur"]
+    "tags": ["solaire", "convertisseur", "électricité"]
   },
   {
     "title": "Banques de compensation : la Nature à crédit - Data Gueule",
@@ -1048,7 +1048,7 @@
     "url": "https://fr.wikipedia.org/wiki/Fichier:Fires_and_Deforestation_on_the_Amazon_Frontier,_Rondonia,_Brazil_-_August_12,_2007.jpg",
     "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Fires_and_Deforestation_on_the_Amazon_Frontier%2C_Rondonia%2C_Brazil_-_August_12%2C_2007.jpg/614px-Fires_and_Deforestation_on_the_Amazon_Frontier%2C_Rondonia%2C_Brazil_-_August_12%2C_2007.jpg",
     "type": "PICTURE",
-    "tags":  ["environnement", "alimentation"]
+    "tags": ["environnement", "alimentation"]
   },
   {
     "title": "Aquaculture en Grèce",
@@ -1140,5 +1140,85 @@
     "url": "https://youtu.be/FsQgzFUU4B4",
     "type": "VIDEO",
     "tags": ["alimentation"]
+  },
+  {
+    "title": "Construction d'un parc de 50 éoliennes de 3MW",
+    "url": "https://youtu.be/b7_ix42ghCQ",
+    "type": "VIDEO",
+    "tags": ["éolien", "électricité"]
+  },
+  {
+    "title": "Champs céréaliers circulaires au Kansas, USA",
+    "url": "https://en.wikipedia.org/wiki/Intensive_farming#/media/File:Crops_Kansas_AST_20010624.jpg",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Crops_Kansas_AST_20010624.jpg/501px-Crops_Kansas_AST_20010624.jpg",
+    "type": "PICTURE",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "Embouteillage à Berkeley, USA",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/I-80_Eastshore_Fwy.jpg/1024px-I-80_Eastshore_Fwy.jpg",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/I-80_Eastshore_Fwy.jpg/640px-I-80_Eastshore_Fwy.jpg",
+    "type": "PICTURE",
+    "tags": ["transport"]
+  },
+  {
+    "title": "Des mains chinoises remplacent les abeilles",
+    "url": "https://youtu.be/aBm5QBDjBIU",
+    "type": "VIDEO",
+    "tags": ["alimentation", "environnement"]
+  },
+  {
+    "title": "7 milliards d'humains",
+    "url": "https://www.chappatte.com/images/population-mondiale/",
+    "coverUrl": "https://www.chappatte.com/prod/wp-content/uploads/artworks/2011/01/L110111c-950x655.jpg",
+    "type": "PICTURE",
+    "tags": ["démographie"]
+  },
+  {
+    "title": "Énergies fossiles",
+    "url": "https://www.chappatte.com/images/energies-fossiles/",
+    "coverUrl": "https://www.chappatte.com/prod/wp-content/uploads/artworks/2015/12/I151205cf-950x683.jpg",
+    "type": "PICTURE",
+    "tags": ["énergie"]
+  },
+  {
+    "title": "Crise alimentaire mondiale",
+    "url": "https://www.chappatte.com/images/crise-alimentaire-mondiale/",
+    "coverUrl": "https://www.chappatte.com/prod/wp-content/uploads/artworks/2008/04/I080411cf-950x728.jpg",
+    "type": "PICTURE",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "Épuisement des ressources",
+    "url": "https://www.chappatte.com/images/epuisement-des-ressources/",
+    "coverUrl": "https://www.chappatte.com/prod/wp-content/uploads/artworks/2009/10/I091023cf-950x756.jpg",
+    "type": "PICTURE",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "L'Anthropocène - Le Réveilleur",
+    "url": "https://youtu.be/n85obqP4CGE",
+    "type": "VIDEO",
+    "tags": ["environnement"]
+  },
+  {
+    "title": "Les métaux - Le Réveilleur",
+    "url": "https://youtu.be/XLRUcdMbZ_M",
+    "type": "VIDEO",
+    "tags": ["métaux"]
+  },
+  {
+    "title": "Drainage d'acide minier",
+    "url": "https://fr.wikipedia.org/wiki/Drainage_minier_acide",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Rio_tinto_river_CarolStoker_NASA_Ames_Research_Center.jpg",
+    "type": "PICTURE",
+    "tags": ["métaux"]
+  },
+  {
+    "title": "Boue rouge dû à la fabrication d'aluminium",
+    "url": "https://fr.wikipedia.org/wiki/Boue_rouge",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Luftaufnahmen_Nordseekueste_2012-05-by-RaBoe-478.jpg/640px-Luftaufnahmen_Nordseekueste_2012-05-by-RaBoe-478.jpg",
+    "type": "PICTURE",
+    "tags": ["métaux"]
   }
 ]

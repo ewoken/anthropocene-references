@@ -34,6 +34,11 @@ function AppLayout(props) {
                 <strong>Accueil</strong>
               </Link>
             </Menu.Item>
+            <Menu.Item key="references">
+              <Link to="/references">
+                <strong>Réferences</strong>
+              </Link>
+            </Menu.Item>
             <Menu.Item>
               <Select
                 className="AppLayout__tagSelect"
