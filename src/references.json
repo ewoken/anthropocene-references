@@ -318,7 +318,7 @@
     "url": "https://www.instagram.com/p/BmRFnPyHKpx/?utm_source=ig_share_sheet&igshid=egcnz2mdp8ew",
     "coverUrl": "https://scontent-cdg2-1.cdninstagram.com/vp/03c534de54bf2e6038261e8ce347904d/5C49ABEC/t51.2885-15/e35/37952108_498665373907120_8075525998180827136_n.jpg",
     "type": "PICTURE",
-    "tags": ["art"]
+    "tags": ["humour"]
   },
   {
     "title": "Blog de Mathieu Auzanneau",
@@ -392,21 +392,21 @@
     "url": "./references/img/climate_hoax.jpg",
     "coverUrl": "./references/img/climate_hoax.jpg",
     "type": "PICTURE",
-    "tags": ["art", "climat"]
+    "tags": ["climat", "humour"]
   },
   {
     "title": "Alone population",
     "url": "./references/img/alone_population.jpg",
     "coverUrl": "./references/img/alone_population.jpg",
     "type": "PICTURE",
-    "tags": ["art"]
+    "tags": ["humour"]
   },
   {
     "title": "Archéologues du futur",
     "url": "./references/img/future_archeologue.jpg",
     "coverUrl": "./references/img/future_archeologue.jpg",
     "type": "PICTURE",
-    "tags": ["art"]
+    "tags": ["humour"]
   },
   {
     "title": "Sixtine Apocalypse - Riber",
@@ -447,7 +447,7 @@
     "url": "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/43738844_10157734144382281_6186986907709210624_o.jpg?_nc_cat=100&oh=25d989ad3964cc1a5e61d00840afd716&oe=5C5358CC",
     "coverUrl": "https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/43738844_10157734144382281_6186986907709210624_o.jpg?_nc_cat=100&oh=25d989ad3964cc1a5e61d00840afd716&oe=5C5358CC",
     "type": "PICTURE",
-    "tags": ["art", "climat"]
+    "tags": ["humour", "climat"]
   },
   {
     "title": "Utopies concretes",
@@ -719,7 +719,7 @@
   {
     "title": "Data Gueule",
     "url": "https://www.youtube.com/user/datagueule/featured",
-    "coverUrl": "https://yt3.ggpht.com/7DndT0vkFOn7VDczyMnnnUqH76dk8Y6vYV7NzVKmc9GFQN5U20576ElAjBFgEpVS_jJxk9SvMA=w2560-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no",
+    "coverUrl": "https://yt3.ggpht.com/a-/AN66SAwpg4QigMs4ELwOEFGwTitboBEok9F7J5KQLQ=s288-mo-c-c0xffffffff-rj-k-no",
     "type": "CHANNEL"
   },
   {
@@ -1172,28 +1172,28 @@
     "url": "https://www.chappatte.com/images/population-mondiale/",
     "coverUrl": "https://www.chappatte.com/prod/wp-content/uploads/artworks/2011/01/L110111c-950x655.jpg",
     "type": "PICTURE",
-    "tags": ["démographie"]
+    "tags": ["démographie", "humour"]
   },
   {
     "title": "Énergies fossiles",
     "url": "https://www.chappatte.com/images/energies-fossiles/",
     "coverUrl": "https://www.chappatte.com/prod/wp-content/uploads/artworks/2015/12/I151205cf-950x683.jpg",
     "type": "PICTURE",
-    "tags": ["énergie"]
+    "tags": ["énergie", "humour"]
   },
   {
     "title": "Crise alimentaire mondiale",
     "url": "https://www.chappatte.com/images/crise-alimentaire-mondiale/",
     "coverUrl": "https://www.chappatte.com/prod/wp-content/uploads/artworks/2008/04/I080411cf-950x728.jpg",
     "type": "PICTURE",
-    "tags": ["alimentation"]
+    "tags": ["alimentation", "humour"]
   },
   {
     "title": "Épuisement des ressources",
     "url": "https://www.chappatte.com/images/epuisement-des-ressources/",
     "coverUrl": "https://www.chappatte.com/prod/wp-content/uploads/artworks/2009/10/I091023cf-950x756.jpg",
     "type": "PICTURE",
-    "tags": ["alimentation"]
+    "tags": ["alimentation", "humour"]
   },
   {
     "title": "L'Anthropocène - Le Réveilleur",
@@ -1220,5 +1220,65 @@
     "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Luftaufnahmen_Nordseekueste_2012-05-by-RaBoe-478.jpg/640px-Luftaufnahmen_Nordseekueste_2012-05-by-RaBoe-478.jpg",
     "type": "PICTURE",
     "tags": ["métaux"]
+  },
+  {
+    "title": "La déforestation - La Barbe",
+    "url": "https://youtu.be/y3A6wG7z8RU",
+    "type": "VIDEO",
+    "tags": ["environnement"]
+  },
+  {
+    "title": "Le Pic Pétrolier - Le Réveilleur",
+    "url": "https://youtu.be/TU3KZ7VUhwU",
+    "type": "VIDEO",
+    "tags": ["pétrole"]
+  },
+  {
+    "title": "Poissons et surpêche - Le Réveilleur",
+    "url": "https://youtu.be/PQ7aQI7x7ng",
+    "type": "VIDEO",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "La surpêche - La Barbe",
+    "url": "https://youtu.be/O3AqwXwSUqc",
+    "type": "VIDEO",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "Paul Watson, fondateur de Sea Shepherd : Plongée en eaux troubles",
+    "url": "https://youtu.be/yh26_9b7IJI",
+    "type": "VIDEO",
+    "tags": ["environnement", "alimentation"]
+  },
+  {
+    "title": "Le phosphore - Le Réveilleur",
+    "url": "https://youtu.be/gqfXMDK3dnE",
+    "type": "VIDEO",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "Bruno Parmentier : Nourrir l'humanité ? - Thinkerview",
+    "url": "https://youtu.be/l9VGz9Lrt70",
+    "type": "VIDEO",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "L’élevage intensif - La Barbe",
+    "url": "https://youtu.be/2F473uqQ6NU",
+    "type": "VIDEO",
+    "tags": ["alimentation"]
+  },
+  {
+    "title": "Les océans - La Barbe",
+    "url": "https://youtu.be/PfC-L9O0xBQ",
+    "type": "VIDEO",
+    "tags": ["environnement"]
+  },
+  {
+    "title": "Nicolas Meyrieux",
+    "url": "https://www.youtube.com/user/NicolasMeyrieux/featured",
+    "coverUrl": "https://yt3.ggpht.com/a-/AN66SAzPy85Lyy2pZ278QcpzJIa5mhfa1mcDtEMXng=s288-mo-c-c0xffffffff-rj-k-no",
+    "type": "CHANNEL"
   }
 ]
