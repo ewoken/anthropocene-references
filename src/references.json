@@ -249,11 +249,11 @@
     "tags": ["Histoire"]
   },
   {
-    "title": "Black-out - Marc Elsberg",
+    "title": "Black Out - Marc Elsberg",
     "url": "https://www.livredepoche.com/livre/black-out-9782253098690",
     "coverUrl": "https://www.livredepoche.com/sites/default/files/styles/manual_crop_269_435/public/images/livres/couv/9782253098690-001-T.jpeg?itok=oWgyCHjg",
     "type": "BOOK",
-    "tags": ["art"]
+    "tags": ["art", "électricité", "énergie"]
   },
   {
     "title": "Île de Saint-Mathieu - Stuart McMillen",
@@ -1255,7 +1255,7 @@
     "title": "Le phosphore - Le Réveilleur",
     "url": "https://youtu.be/gqfXMDK3dnE",
     "type": "VIDEO",
-    "tags": ["alimentation"]
+    "tags": ["alimentation", "biologie"]
   },
   {
     "title": "Bruno Parmentier : Nourrir l'humanité ? - Thinkerview",
@@ -1280,5 +1280,68 @@
     "url": "https://www.youtube.com/user/NicolasMeyrieux/featured",
     "coverUrl": "https://yt3.ggpht.com/a-/AN66SAzPy85Lyy2pZ278QcpzJIa5mhfa1mcDtEMXng=s288-mo-c-c0xffffffff-rj-k-no",
     "type": "CHANNEL"
+  },
+  {
+    "title": "Hybrids",
+    "url": "https://vimeo.com/296191192",
+    "coverUrl": "https://i.vimeocdn.com/video/733561934.jpg?mh=600&q=70",
+    "type": "MOVIE",
+    "tags": ["art", "environnement"]
+  },
+  {
+    "title": "Les déchets nucléaires - La Barbe",
+    "url": "https://youtu.be/2tQXVfwx19E",
+    "type": "VIDEO",
+    "tags": ["nucléaire"]
+  },
+  {
+    "title": "Drive-by: Oilfield in California",
+    "url": "https://youtu.be/UScvQd4Yq8M",
+    "type": "VIDEO",
+    "tags": ["pétrole"]
+  },
+  {
+    "title": "Mine d'or de Betze-Post, Nevada, USA",
+    "url": "https://youtu.be/S16q_x8TUo0",
+    "type": "VIDEO",
+    "tags": ["métaux"]
+  },
+  {
+    "title": "2 minutes angoissantes dans une mer polluée par le plastique à Bali",
+    "url": "https://youtu.be/1UUc0AU2VMc",
+    "type": "VIDEO",
+    "tags": ["environnement"]
+  },
+  {
+    "title": "Earth's land mammals - by weight",
+    "url": "https://xkcd.com/1338/",
+    "coverUrl": "https://imgs.xkcd.com/comics/land_mammals.png",
+    "type": "PICTURE",
+    "tags": ["environnement"]
+  },
+  {
+    "title": "Les jeux vidéos vont-ils disparaître ?",
+    "url": "https://youtu.be/2Qq-6wByLPI",
+    "type": "VIDEO",
+    "tags": ["collapsologie"]
+  },
+  {
+    "title": "Paprec au cœur de l'économie du recyclage en France",
+    "url": "https://youtu.be/nBI6SPopCG8",
+    "type": "VIDEO"
+  },
+  {
+    "title": "Carte du réseau (français) de transport d'électricité (RTE)",
+    "url": "https://rte-france.maps.arcgis.com/apps/Embed/index.html?webmap=02d413bcbe184384ba424fc40f9b8ce8&extent=-11.8692,40.3171,16.4975,52.9519&home=true&zoom=true&scale=true&legend=true&disable_scroll=false&theme=light",
+    "coverUrl": "./references/img/RTE_map.png",
+    "type": "WEBSITE",
+    "tags": ["électricité"]
+  },
+  {
+    "title": "Carte des centrales électriques en France (EDF)",
+    "url": "https://www.edf.fr/groupe-edf/nos-energies/carte-de-nos-implantations-industrielles-en-france#!id%3Drzr-poi-behavior-filter-form",
+    "coverUrl": "./references/img/centrales_electriques_france.jpg",
+    "type": "WEBSITE",
+    "tags": ["électricité"]
   }
 ]
