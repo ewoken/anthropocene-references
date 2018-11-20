@@ -1331,9 +1331,9 @@
     "type": "VIDEO"
   },
   {
-    "title": "Carte du réseau (français) de transport d'électricité (RTE)",
-    "url": "https://rte-france.maps.arcgis.com/apps/Embed/index.html?webmap=02d413bcbe184384ba424fc40f9b8ce8&extent=-11.8692,40.3171,16.4975,52.9519&home=true&zoom=true&scale=true&legend=true&disable_scroll=false&theme=light",
-    "coverUrl": "./references/img/RTE_map.png",
+    "title": "Carte du réseau électrique européen",
+    "url": "https://rustyb.github.io/ee_transmap/#4/47.71/2.99",
+    "coverUrl": "./references/img/europe_electrique_reseau.png",
     "type": "WEBSITE",
     "tags": ["électricité"]
   },
@@ -1343,5 +1343,51 @@
     "coverUrl": "./references/img/centrales_electriques_france.jpg",
     "type": "WEBSITE",
     "tags": ["électricité"]
+  },
+  {
+    "title": "Carte du commerce international du charbon",
+    "url": "https://www.carbonbrief.org/mapped-the-global-coal-trade",
+    "coverUrl": "https://www.carbonbrief.org/wp-content/uploads/2016/05/coal-trade-around-the-world-1.jpg",
+    "type": "ARTICLE",
+    "tags": ["charbon"]
+  },
+  {
+    "title": "Carte des centrales à charbon dans le monde",
+    "url": "https://www.carbonbrief.org/mapped-worlds-coal-power-plants",
+    "coverUrl": "./references/img/coal_power_plant_world.jpg",
+    "type": "ARTICLE",
+    "tags": ["charbon"]
+  },
+  {
+    "title": "Carte des centrales nucléaires dans le monde",
+    "url": "https://www.carbonbrief.org/mapped-the-worlds-nuclear-power-plants",
+    "coverUrl": "./references/img/carte_centrales_nucleaires_monde.png",
+    "type": "ARTICLE",
+    "tags": ["nucléaire"]
+  },
+  {
+    "title": "Le torchage de gaz naturel",
+    "url": "https://fr.wikipedia.org/wiki/Torchage_et_rejet_de_gaz_naturel",
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kimanis_Sabah_SOGT-Kimanis-02.jpg/320px-Kimanis_Sabah_SOGT-Kimanis-02.jpg",
+    "type": "ARTICLE",
+    "tags": ["gaz"]
+  },
+  {
+    "title": "Population mondiale",
+    "url": "http://www.visualcapitalist.com/wp-content/uploads/2018/09/world-map.png",
+    "coverUrl": "http://www.visualcapitalist.com/wp-content/uploads/2018/09/world-map.png",
+    "type": "PICTURE"
+  },
+  {
+    "title": "Réseau mondial du transport aérien",
+    "url": "http://www.martingrandjean.ch/connected-world-air-traffic-network/",
+    "coverUrl": "http://www.martingrandjean.ch/wp-content/uploads/2016/05/airports-network-small.png",
+    "type": "PICTURE",
+    "tags": ["transport"]
+  },
+  {
+    "title": "Évolution de la population mondiale",
+    "url": "https://youtu.be/PUwmA3Q0_OE",
+    "type": "VIDEO"
   }
 ]
